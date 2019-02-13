@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobilemoney on Michael Bumann</title>
+    <link>http://michaelbumann.com/tags/mobilemoney/</link>
+    <description>Recent content in Mobilemoney on Michael Bumann</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Oct 2015 16:05:40 +0000</lastBuildDate>
+    
+	<atom:link href="http://michaelbumann.com/tags/mobilemoney/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sending Bitcoin to a Kenyan mobile money account using the telegram messenger</title>
+      <link>http://michaelbumann.com/posts/2015-10-23-sending-bitcoin-to-a-kenyan-mobile-money-account-using-the-telegram-messenger/</link>
+      <pubDate>Fri, 23 Oct 2015 16:05:40 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2015-10-23-sending-bitcoin-to-a-kenyan-mobile-money-account-using-the-telegram-messenger/</guid>
+      <description>Update: This post was about a technical prototype application that I&#39;ve developed which allowed you to use bitcoin to send money to an m-pesa mobile money account. I&#39;ve made a demo video about the app here. The demo got great attention and but sadly I had to remove the post and replace it with this clearification. If you have questions, please contact me Update (August 2016): KenyaInsights article: &#34;Revealed: How A Worried Safaricom Used Backdoor To Shutdown Bitcoin Which Was Set To Neutralize Mpesa Dominance In Kenya&#34;</description>
+    </item>
+    
+  </channel>
+</rss>

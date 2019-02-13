@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opensource on Michael Bumann</title>
+    <link>http://michaelbumann.com/tags/opensource/</link>
+    <description>Recent content in Opensource on Michael Bumann</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Feb 2018 14:27:15 +0000</lastBuildDate>
+    
+	<atom:link href="http://michaelbumann.com/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>bundle thank-you - a donation system for ruby gems (and other package managers)</title>
+      <link>http://michaelbumann.com/posts/2018-02-09-bundle-thank-you-a-donation-system-for-ruby-gems-and-other-package-managers/</link>
+      <pubDate>Fri, 09 Feb 2018 14:27:15 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2018-02-09-bundle-thank-you-a-donation-system-for-ruby-gems-and-other-package-managers/</guid>
+      <description>Nearly two years ago I’ve experimented with the idea of using bitcoin payments to tip open source projects. The idea is to analyze the dependencies of a project (by parsing the bundler Gemfile or npm package.json), extract donation information and send a “thank you” to these projects. Bitcoin is the perfect protocol for this. We can directly transfer value and do not need any intermediary. The projects and users do not have to agree on a service provider (like paypal or patreon), no signup es required.</description>
+    </item>
+    
+  </channel>
+</rss>

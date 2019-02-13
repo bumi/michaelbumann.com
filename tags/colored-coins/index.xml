@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Colored Coins on Michael Bumann</title>
+    <link>http://michaelbumann.com/tags/colored-coins/</link>
+    <description>Recent content in Colored Coins on Michael Bumann</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Dec 2015 17:36:05 +0000</lastBuildDate>
+    
+	<atom:link href="http://michaelbumann.com/tags/colored-coins/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building an Open Source Mobile Money System for financial inclusion</title>
+      <link>http://michaelbumann.com/posts/2015-12-21-building-an-open-source-mobile-money-system-for-financial-inclusion/</link>
+      <pubDate>Mon, 21 Dec 2015 17:36:05 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2015-12-21-building-an-open-source-mobile-money-system-for-financial-inclusion/</guid>
+      <description>There has been a lot of excitement in the last many years about how mobile money systems can bring financial services to previously underserved people. Mobile money systems make it possible to deliver various services at affordable costs to remote areas and groups of disadvantaged and low-income people that brick and mortar banks can not serve. Which is pretty cool: set up a few cell phone towers, distribute some SIM cards and cheap phones, add some software and people can transact.</description>
+    </item>
+    
+  </channel>
+</rss>

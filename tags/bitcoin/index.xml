@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bitcoin on Michael Bumann</title>
+    <link>http://michaelbumann.com/tags/bitcoin/</link>
+    <description>Recent content in Bitcoin on Michael Bumann</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Feb 2019 21:50:54 +0000</lastBuildDate>
+    
+	<atom:link href="http://michaelbumann.com/tags/bitcoin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>With ruby to space and back</title>
+      <link>http://michaelbumann.com/posts/2019-02-09-with-ruby-to-space-and-back/</link>
+      <pubDate>Sat, 09 Feb 2019 21:50:54 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2019-02-09-with-ruby-to-space-and-back/</guid>
+      <description>It is pretty amazing to live in a time when it is possible to broadcast data through satellites to pretty much the whole planet. The Blockstream Satellite project makes this possible. Their Satellite network not only broadcasts the Bitcoin blockchain around the world 24/7 for free but also provides an API that allows everybody to broadcast messages through this network. This is possible for for a small fee payable through the Bitcoin lightning network.</description>
+    </item>
+    
+    <item>
+      <title>Bitcoin lightning machine-to-machine API payments</title>
+      <link>http://michaelbumann.com/posts/2018-11-22-bitcoin-lightning-machine-to-machine-api-payments/</link>
+      <pubDate>Thu, 22 Nov 2018 21:45:10 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2018-11-22-bitcoin-lightning-machine-to-machine-api-payments/</guid>
+      <description>The Bitcoin lightning network is growing quickly. The lightning network is an exciting second layer protocol on top of the Bitcoin network that allows to send real near-instant payments and is perfectly suited for micro-/nano-transactions. The tools already work great and make it super easy for developers to integrate with the lightning network. I’ve lately experimented with it and built a demo to show machine-to-machine API payments. It allows the server to request a payment from the client; the client can automatically pay the invoice to access the resource from the server.</description>
+    </item>
+    
+    <item>
+      <title>OpenAlias lookup with ruby</title>
+      <link>http://michaelbumann.com/posts/2018-11-03-openalias-lookup-with-ruby/</link>
+      <pubDate>Sat, 03 Nov 2018 18:53:28 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2018-11-03-openalias-lookup-with-ruby/</guid>
+      <description>Halloween nights are scary and you are supposed to do scary things. This year I had a few hours in the hotel and so I&#39;ve built a ruby wrapper around the openalias.rs rust package. That is scary because I have no idea about rust :D
+But fist things first, what is OpenAlias?
+OpenAlias is an open standard for simpler addresses for any crypto currencies.
+It is a DNS based alias system that allows you to use a domain to lookup a cryptocurrency address.</description>
+    </item>
+    
+    <item>
+      <title>How to install your own bank and payment service - your bitcoin and lightning node</title>
+      <link>http://michaelbumann.com/posts/2018-10-20-how-to-install-your-own-bank-and-payment-service-your-bitcoin-and-lightning-node/</link>
+      <pubDate>Sat, 20 Oct 2018 22:04:03 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2018-10-20-how-to-install-your-own-bank-and-payment-service-your-bitcoin-and-lightning-node/</guid>
+      <description>I’ve recently updated and re-installed some of my servers and bitcoin and lightning nodes that I am running. It’s amazing how easy it is to run and operate your own bank and payment service. And I encourage everybody to operate your own bitcoin full-node and lightning node.&amp;nbsp;
+Even though there are plenty of resources out there on how to install everything you need on the various systems, here are a few notes on my setup.</description>
+    </item>
+    
+    <item>
+      <title>bundle thank-you - a donation system for ruby gems (and other package managers)</title>
+      <link>http://michaelbumann.com/posts/2018-02-09-bundle-thank-you-a-donation-system-for-ruby-gems-and-other-package-managers/</link>
+      <pubDate>Fri, 09 Feb 2018 14:27:15 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2018-02-09-bundle-thank-you-a-donation-system-for-ruby-gems-and-other-package-managers/</guid>
+      <description>Nearly two years ago I’ve experimented with the idea of using bitcoin payments to tip open source projects. The idea is to analyze the dependencies of a project (by parsing the bundler Gemfile or npm package.json), extract donation information and send a “thank you” to these projects. Bitcoin is the perfect protocol for this. We can directly transfer value and do not need any intermediary. The projects and users do not have to agree on a service provider (like paypal or patreon), no signup es required.</description>
+    </item>
+    
+    <item>
+      <title>#IamSatoshi - we are all Satoshi</title>
+      <link>http://michaelbumann.com/posts/2016-05-03-iamsatoshi-we-are-all-satoshi/</link>
+      <pubDate>Tue, 03 May 2016 15:25:58 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2016-05-03-iamsatoshi-we-are-all-satoshi/</guid>
+      <description>So there have been again some big media houses publishing stories that they have found Satoshi Nakamoto. This time again for real, really... trust us. The Bitcoin boards on reddit are full of posts about the story. Most of them are very critical and arguing it is a hoax. (wondering why the media companies always fail on that...but that’s a different story)
+It seems the whole Bitcoin world has no better topic to talk about.</description>
+    </item>
+    
+    <item>
+      <title>Online payments: transfer value instead of information</title>
+      <link>http://michaelbumann.com/posts/2016-04-25-online-payments-transfer-value-instead-of-information/</link>
+      <pubDate>Mon, 25 Apr 2016 16:27:01 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2016-04-25-online-payments-transfer-value-instead-of-information/</guid>
+      <description>First online payments happened before SSL was officially released and browsers could not make secure connections. A custom client had to be used to transfer the card details securely from the customer to the merchant. That was around 1994. Today 90% of online transactions in the US are card payments. The international numbers are probably lower with significant higher numbers for local, alternative payment methods. But the concept is all the same: The customer transfers some information (card details, account numbers, etc.</description>
+    </item>
+    
+    <item>
+      <title>Experimenting with Bitcoin machine to machine payments</title>
+      <link>http://michaelbumann.com/posts/2016-03-20-experimenting-with-bitcoin-machine-to-machine-payments/</link>
+      <pubDate>Sun, 20 Mar 2016 07:16:08 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2016-03-20-experimenting-with-bitcoin-machine-to-machine-payments/</guid>
+      <description>We will see more and more machines directly and autonomously interacting with each other. Machines provide services to each other that are needed to fulfill their tasks.
+Many tools that we are regularly using today are already mashups relying on different services and with the rise IoT&amp;nbsp;we will see only more devices consuming remote services and services directly from other devices.&amp;nbsp;
+Providing services obviously also involves paying for these and this is where Bitcoin comes in.</description>
+    </item>
+    
+    <item>
+      <title>Example client/server implementing of the Bitcoin Payment Protocol (BIP70)</title>
+      <link>http://michaelbumann.com/posts/2016-03-07-example-clientserver-implementing-of-the-bitcoin-payment-protocol-bip70/</link>
+      <pubDate>Mon, 07 Mar 2016 17:46:05 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2016-03-07-example-clientserver-implementing-of-the-bitcoin-payment-protocol-bip70/</guid>
+      <description>I&amp;rsquo;ve been experimenting with different possibilities to integrate Bitcoin payments into applications and websites. I believe payments must become easier and bitcoin provides some great possibilities there.&amp;nbsp;
+In the following post looks into the Bitcoin Payment Protocol (BIP70) and shows some code for a simple server implementation (in Ruby) and a client/wallet implementation (in Java).&amp;nbsp;
+What is the Payment Protocol?&amp;nbsp;
+The Payment Protocol, described in Bitcoin Improvement Proposal 70, is a protocol for communicating between the customer&amp;rsquo;s Bitcoin wallet/client and the merchant&amp;rsquo;s server application.</description>
+    </item>
+    
+    <item>
+      <title>Building an Open Source Mobile Money System for financial inclusion</title>
+      <link>http://michaelbumann.com/posts/2015-12-21-building-an-open-source-mobile-money-system-for-financial-inclusion/</link>
+      <pubDate>Mon, 21 Dec 2015 17:36:05 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2015-12-21-building-an-open-source-mobile-money-system-for-financial-inclusion/</guid>
+      <description>There has been a lot of excitement in the last many years about how mobile money systems can bring financial services to previously underserved people. Mobile money systems make it possible to deliver various services at affordable costs to remote areas and groups of disadvantaged and low-income people that brick and mortar banks can not serve. Which is pretty cool: set up a few cell phone towers, distribute some SIM cards and cheap phones, add some software and people can transact.</description>
+    </item>
+    
+    <item>
+      <title>Sending Bitcoin to a Kenyan mobile money account using the telegram messenger</title>
+      <link>http://michaelbumann.com/posts/2015-10-23-sending-bitcoin-to-a-kenyan-mobile-money-account-using-the-telegram-messenger/</link>
+      <pubDate>Fri, 23 Oct 2015 16:05:40 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2015-10-23-sending-bitcoin-to-a-kenyan-mobile-money-account-using-the-telegram-messenger/</guid>
+      <description>Update: This post was about a technical prototype application that I&#39;ve developed which allowed you to use bitcoin to send money to an m-pesa mobile money account. I&#39;ve made a demo video about the app here. The demo got great attention and but sadly I had to remove the post and replace it with this clearification. If you have questions, please contact me Update (August 2016): KenyaInsights article: &#34;Revealed: How A Worried Safaricom Used Backdoor To Shutdown Bitcoin Which Was Set To Neutralize Mpesa Dominance In Kenya&#34;</description>
+    </item>
+    
+    <item>
+      <title>chainbook.bit - a decentralized social network</title>
+      <link>http://michaelbumann.com/posts/2015-08-26-chainbookbit-a-decentralized-social-network/</link>
+      <pubDate>Wed, 26 Aug 2015 15:06:29 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2015-08-26-chainbookbit-a-decentralized-social-network/</guid>
+      <description>One of my projects for the 2015 Chaos Communication Camp&amp;nbsp;has been chainbook.bit&amp;nbsp;A decentralized address book, or let’s call it social network, using the namecoin blockchain and remotestorage.
+The goal was to build an address book application that stores absolutely no user data and loads the contact information from a decentralized source managed by the contact itself.
+Components:&amp;nbsp;Namecoin is a decentralized open source information registration system. It is the first and imho the most interesting fork of Bitcoin.</description>
+    </item>
+    
+    <item>
+      <title>How to develop Bitcoin applications - an overview</title>
+      <link>http://michaelbumann.com/posts/2014-09-19-how-to-develop-bitcoin-applications-an-overview/</link>
+      <pubDate>Fri, 19 Sep 2014 21:07:19 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2014-09-19-how-to-develop-bitcoin-applications-an-overview/</guid>
+      <description>At Railslove we have developed our first Bitcoin application that went into production early this year and if you are following the Bitcoin ecosystem you might have heard of it:
+BitPesa&amp;nbsp;is a remittance product based on Bitcoin for Kenyan diaspora.
+That means people can send money to there relatives in Kenya using Bitcoin. Because of the digital nature of Bitcoin it is perfect for cross-border transactions that are slow and expensive with existing payment solution.</description>
+    </item>
+    
+  </channel>
+</rss>

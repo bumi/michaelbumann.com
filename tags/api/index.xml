@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Api on Michael Bumann</title>
+    <link>http://michaelbumann.com/tags/api/</link>
+    <description>Recent content in Api on Michael Bumann</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Nov 2018 21:45:10 +0000</lastBuildDate>
+    
+	<atom:link href="http://michaelbumann.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bitcoin lightning machine-to-machine API payments</title>
+      <link>http://michaelbumann.com/posts/2018-11-22-bitcoin-lightning-machine-to-machine-api-payments/</link>
+      <pubDate>Thu, 22 Nov 2018 21:45:10 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2018-11-22-bitcoin-lightning-machine-to-machine-api-payments/</guid>
+      <description>The Bitcoin lightning network is growing quickly. The lightning network is an exciting second layer protocol on top of the Bitcoin network that allows to send real near-instant payments and is perfectly suited for micro-/nano-transactions. The tools already work great and make it super easy for developers to integrate with the lightning network. I’ve lately experimented with it and built a demo to show machine-to-machine API payments. It allows the server to request a payment from the client; the client can automatically pay the invoice to access the resource from the server.</description>
+    </item>
+    
+    <item>
+      <title>Experimenting with Bitcoin machine to machine payments</title>
+      <link>http://michaelbumann.com/posts/2016-03-20-experimenting-with-bitcoin-machine-to-machine-payments/</link>
+      <pubDate>Sun, 20 Mar 2016 07:16:08 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2016-03-20-experimenting-with-bitcoin-machine-to-machine-payments/</guid>
+      <description>We will see more and more machines directly and autonomously interacting with each other. Machines provide services to each other that are needed to fulfill their tasks.
+Many tools that we are regularly using today are already mashups relying on different services and with the rise IoT&amp;nbsp;we will see only more devices consuming remote services and services directly from other devices.&amp;nbsp;
+Providing services obviously also involves paying for these and this is where Bitcoin comes in.</description>
+    </item>
+    
+    <item>
+      <title>Yo! - the most exciting application of 2014</title>
+      <link>http://michaelbumann.com/posts/2014-12-10-yo-the-most-exciting-application-of-2014/</link>
+      <pubDate>Wed, 10 Dec 2014 17:34:32 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2014-12-10-yo-the-most-exciting-application-of-2014/</guid>
+      <description>Yo! is probably one of the most exciting and strangest apps of 2014. What started on April Fools Day was suddenly a company valued at between $5 and $10 million in July and passed a million users just three months after its launch.
+So what is Yo!?
+The download page describes the app as the following:
+ The simplest &amp;amp; most efficient communication tool in the world.
+Yo is a single-tap zero character communication tool.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rust on Michael Bumann</title>
+    <link>http://michaelbumann.com/tags/rust/</link>
+    <description>Recent content in Rust on Michael Bumann</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Nov 2018 18:53:28 +0000</lastBuildDate>
+    
+	<atom:link href="http://michaelbumann.com/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OpenAlias lookup with ruby</title>
+      <link>http://michaelbumann.com/posts/2018-11-03-openalias-lookup-with-ruby/</link>
+      <pubDate>Sat, 03 Nov 2018 18:53:28 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2018-11-03-openalias-lookup-with-ruby/</guid>
+      <description>Halloween nights are scary and you are supposed to do scary things. This year I had a few hours in the hotel and so I&#39;ve built a ruby wrapper around the openalias.rs rust package. That is scary because I have no idea about rust :D
+But fist things first, what is OpenAlias?
+OpenAlias is an open standard for simpler addresses for any crypto currencies.
+It is a DNS based alias system that allows you to use a domain to lookup a cryptocurrency address.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lnd on Michael Bumann</title>
+    <link>http://michaelbumann.com/tags/lnd/</link>
+    <description>Recent content in Lnd on Michael Bumann</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Oct 2018 22:04:03 +0000</lastBuildDate>
+    
+	<atom:link href="http://michaelbumann.com/tags/lnd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to install your own bank and payment service - your bitcoin and lightning node</title>
+      <link>http://michaelbumann.com/posts/2018-10-20-how-to-install-your-own-bank-and-payment-service-your-bitcoin-and-lightning-node/</link>
+      <pubDate>Sat, 20 Oct 2018 22:04:03 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2018-10-20-how-to-install-your-own-bank-and-payment-service-your-bitcoin-and-lightning-node/</guid>
+      <description>I’ve recently updated and re-installed some of my servers and bitcoin and lightning nodes that I am running. It’s amazing how easy it is to run and operate your own bank and payment service. And I encourage everybody to operate your own bitcoin full-node and lightning node.&amp;nbsp;
+Even though there are plenty of resources out there on how to install everything you need on the various systems, here are a few notes on my setup.</description>
+    </item>
+    
+  </channel>
+</rss>

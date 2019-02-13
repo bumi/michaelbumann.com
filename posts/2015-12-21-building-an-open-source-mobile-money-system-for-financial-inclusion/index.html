@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  
+    <head>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="public" />
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.54.0" />
+
+    
+    
+    
+
+<title>Building an Open Source Mobile Money System for financial inclusion • Michael Bumann</title>
+<meta name="description" content="Michael Bumann - Hacker and Thinker from planet Earth. Passionate about the web and decentralization.">
+<meta name="keywords" content="Michael Bumann, Software Developer, Software Engineer, Bitcoin, Lightning, Ethereum, Blockchain, World, Travel">
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Building an Open Source Mobile Money System for financial inclusion"/>
+<meta name="twitter:description" content="There has been a lot of excitement in the last many years about how mobile money systems can bring financial services to previously underserved people. Mobile money systems make it possible to deliver various services at affordable costs to remote areas and groups of disadvantaged and low-income people that brick and mortar banks can not serve. Which is pretty cool: set up a few cell phone towers, distribute some SIM cards and cheap phones, add some software and people can transact."/>
+
+<meta property="og:title" content="Building an Open Source Mobile Money System for financial inclusion" />
+<meta property="og:description" content="There has been a lot of excitement in the last many years about how mobile money systems can bring financial services to previously underserved people. Mobile money systems make it possible to deliver various services at affordable costs to remote areas and groups of disadvantaged and low-income people that brick and mortar banks can not serve. Which is pretty cool: set up a few cell phone towers, distribute some SIM cards and cheap phones, add some software and people can transact." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://michaelbumann.com/posts/2015-12-21-building-an-open-source-mobile-money-system-for-financial-inclusion/" />
+<meta property="article:published_time" content="2015-12-21T17:36:05&#43;00:00"/>
+<meta property="article:modified_time" content="2015-12-21T17:36:05&#43;00:00"/>
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.dbc8a45fb0e96e9878f318b4ed00296cbef8a3abd1e6f0fb6dc377ab51d4686b.css" integrity="sha256-28ikX7Dpbph48xi07QApbL74o6vR5vD7bcN3q1HUaGs=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+
+</head>
+
+
+  
+  <body class="theme-base-0d ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      
+        
+        
+        
+        <div class="author-image">
+          <a href="http://michaelbumann.com"><img src="http://michaelbumann.com/img/profile_small.jpg" alt="me" class="img--circle img--headshot element--center"></a>
+        </div>
+        
+      
+      
+      <h1 class="site__title">
+        <a href="http://michaelbumann.com">Michael Bumann</a>
+      </h1>
+      <h2 class="site__description">
+         Hacker and open web enthusiast from planet Earth 
+      </h2>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Michael Bumann</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/about">
+						<span>About Me</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="contact">
+  <h4>Contact</h4>
+  <p>
+    <a href="mailto:hello@michaelbumann.com">hello@michaelbumann.com</a> 
+    <small>(<a href="https://gist.github.com/bumi/c3ad9e813af308c9587d">PGP</a>)</small>
+  </p>
+  <p>
+    <small>
+      <a href="https://signal.org/">Signal</a> or whatsapp: +4917622747893
+    </small>
+  </p>
+</section>
+
+        <section class="social">
+  <h4>Elsewhere on the interwebs</h4>
+	
+	<a href="https://twitter.com/bumi" rel="me"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://facebook.com/michaelbumann" rel="me"><i class="fab fa-facebook-f"></i></a>
+	
+	
+	<a href="https://github.com/bumi" rel="me"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	<a href="https://flickr.com/bumi" rel="me"><i class="fab fa-flickr fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://instagram.com/buuumi" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/michaelbumann" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="mailto:hello@michaelbumann.com" rel="me"><i class="fas fa-at fa-lg" aria-hidden="true"></i></a>
+	
+</section>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    <div class="content container">
+      
+    <article>
+  <header>
+    <h1>Building an Open Source Mobile Money System for financial inclusion</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Dec 21, 2015
+    
+    
+    
+</div>
+
+
+  </header>
+  <div class="post">
+    <p><p>There has been a lot of excitement in the last many years about how mobile money systems can bring financial services to previously underserved people. Mobile money systems make it possible to deliver various services at affordable costs to remote areas and groups of disadvantaged and low-income people that brick and mortar banks can not serve. <br>Which is pretty cool: set up a few cell phone towers, distribute some SIM cards and cheap phones, add some software and people can transact.<br>And on top of that it seems to be much more convenient and reliable than traditional banking services that also often lack decent mobile/online services.</p><p><a href="https://en.wikipedia.org/wiki/M-Pesa">M-Pesa</a> of Safaricom in Kenya is commonly mentioned as an example of the great success of such systems. It gives people access to save money and access to loans and makes a lot of other services possible like for example the solar company <a href="http://www.m-kopa.com/">m-kopa</a>.</p><p>When I first heard about these solutions I was super excited. For me, being used to the european banking system, I was surprised how easy and well it works also for my use-cases. <br>You can use it everywhere - you pay everyone and for everything, from your taxi driver to your electricity meter. You hardly need to visit or interact with your bank and a big ecosystem around m-pesa has been growing.<br>Of course this is Kenya and Mobile Money systems are a little less adopted in other countries but pretty much all the MNOs these days operate a mobile money system.&nbsp;(btw. Somaliland has the highest percentage of GDP transacted through mobile phones.)</p><p><b>But NO those Mobile Money Systems are not exciting! </b></p><p>Sadly, if you think a little more about it, these systems are worse than all the things we currently know. Every carrier is its own island. Not interoperable at all. And access is controlled by one single <em>private</em> corporation. <br>It is great in the beginning to bring financial services to underserved people and optimizing distribution of help. But it is all one simple machine to create a monopoly and thus to give all the power to one single authority. And companies use their power to protect their monopoly.</p><p>We are talking about net neutrality and complaining about projects like internet.org that give selective internet access to people. But having access to financial services must be also <i>neutral</i>. Think of the<b> network to transfer value</b>. That network must be accessible for every person and every company. With minimal costs involved to participate.<br>Currently these systems are quite the opposite.</p><p><b>We need to build an Open Source Mobile Money system!</b></p><p>The network to transfer value must be based on open standards that make it possible to develop financial services. It must be inclusive. It must not be owned by anybody. <br>Everybody must be able to participate. &nbsp;Everybody must be able to use it and offer services.&nbsp;<br></p><p>Some of you now might say, <a href="http://bitcoin.org/">Bitcoin</a> (some might add <a href="http://www.ethereum.org/">Ethereum</a>&nbsp;or also <a href="http://stellar.org/">Stellar</a>)!<b>&nbsp;</b>And yes, I guess that is one of the reasons why many of us are excited about Bitcoin and I am happy about the democratization this technology brings.&nbsp;</p><p>Bitcoin admittedly has still some flaws for directly providing the above described services. But it brought us a distributed ledger, a standardized system to record scriptable transactions in a decentralized way.&nbsp;<br></p><p>I suggest we are building an open mobile money system - a system to transfer value - on the bitcoin blockchain. Here are a few ideas:</p><ul><li>The Open Assets protocol could be used to issue colored coins on the blockchain. Organizations, communities, or even countries could issue their own coins. But they are transacted on the open blockchain and everyone can participate. That is a digital representation of an&nbsp;“asset” backed by the issuing organization.&nbsp;</li><li>Mobile carriers could operate mobile wallets (for example USSD, SMS or SIM card based). They could use their own colored coins and/or support multiple coins. &nbsp;</li><li>Merchant payments are easy by default as everybody can integrate with the blockchain.</li><li>There are a lot of monetization possibilities and incentives for organizations to integrate with the network.</li><li>Want to provide additional services like, let’s say an accounting software, simply integrate with the blockchain.&nbsp;</li><li>Cross-organization/Cross-border/international integration works by default.&nbsp;</li><li>System is fully Open Source and implements public standards that everybody can use and integrate.</li></ul><p>Point is we need to an open and censorship resistant system that is not in control by a single organization and depending on the approval of that organization to integrate with the system.<br>Colored Coins could be a compromise to transfer assets backed by an issuer in an open decentralized network.&nbsp;</p><p><br></p><p><b>Further reading:&nbsp;</b></p><ul><li><a href="http://openassets.org">OpenAsset Protocol</a><br></li><li><a href="http://stellar.org/">Stellar.org</a></li><li><a href="https://www.coinprism.com/">CoinPrism</a></li><li><a href="http://openchain.org/">OpenChain</a></li><li><a href="http://www.multichain.com/">MultiChain</a></li><li><a href="http://counterparty.io/">Counterparty</a></li></ul></p>
+
+  </div>
+  <div class="post__meta">
+  
+  
+    
+    
+         <i class="fas fa-tags"></i>
+        
+        <a class="badge badge-tag" href="/tags/bitcoin">bitcoin</a>
+         
+    
+        <a class="badge badge-tag" href="/tags/colored-coins">colored coins</a>
+         
+    
+        <a class="badge badge-tag" href="/tags/blockchain">blockchain</a>
+         
+    
+        <a class="badge badge-tag" href="/tags/openassets">openassets</a>
+        
+    
+  
+  
+</div>  
+
+  
+<div id="commento"></div>
+<script src="https://cdn.commento.io/js/commento.js"></script>
+
+
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/2015-12-08-a-jekyll-theme-optimized-for-meetups/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">A jekyll theme optimized for meetups</span>
+    </a>
+    
+    
+    <a href="/posts/2016-01-03-the-death-of-the-url/" class="navigation-next">
+      <span class="navigation-tittle">The death of the URL</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+</article>
+
+
+    </div>
+    
+    <script defer src="/js/fontawesome_v5.5.0_js_all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+
+
+    
+    
+    <script type="text/javascript">
+        
+        hljs.initHighlightingOnLoad();
+    </script>
+    
+
+
+
+  </body>
+</html>

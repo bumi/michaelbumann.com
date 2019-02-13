@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bip70 on Michael Bumann</title>
+    <link>http://michaelbumann.com/tags/bip70/</link>
+    <description>Recent content in Bip70 on Michael Bumann</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Mar 2016 17:46:05 +0000</lastBuildDate>
+    
+	<atom:link href="http://michaelbumann.com/tags/bip70/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Example client/server implementing of the Bitcoin Payment Protocol (BIP70)</title>
+      <link>http://michaelbumann.com/posts/2016-03-07-example-clientserver-implementing-of-the-bitcoin-payment-protocol-bip70/</link>
+      <pubDate>Mon, 07 Mar 2016 17:46:05 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2016-03-07-example-clientserver-implementing-of-the-bitcoin-payment-protocol-bip70/</guid>
+      <description>I&amp;rsquo;ve been experimenting with different possibilities to integrate Bitcoin payments into applications and websites. I believe payments must become easier and bitcoin provides some great possibilities there.&amp;nbsp;
+In the following post looks into the Bitcoin Payment Protocol (BIP70) and shows some code for a simple server implementation (in Ruby) and a client/wallet implementation (in Java).&amp;nbsp;
+What is the Payment Protocol?&amp;nbsp;
+The Payment Protocol, described in Bitcoin Improvement Proposal 70, is a protocol for communicating between the customer&amp;rsquo;s Bitcoin wallet/client and the merchant&amp;rsquo;s server application.</description>
+    </item>
+    
+  </channel>
+</rss>

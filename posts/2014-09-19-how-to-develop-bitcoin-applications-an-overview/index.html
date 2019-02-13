@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  
+    <head>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="public" />
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.54.0" />
+
+    
+    
+    
+
+<title>How to develop Bitcoin applications - an overview • Michael Bumann</title>
+<meta name="description" content="Michael Bumann - Hacker and Thinker from planet Earth. Passionate about the web and decentralization.">
+<meta name="keywords" content="Michael Bumann, Software Developer, Software Engineer, Bitcoin, Lightning, Ethereum, Blockchain, World, Travel">
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to develop Bitcoin applications - an overview"/>
+<meta name="twitter:description" content="At Railslove we have developed our first Bitcoin application that went into production early this year and if you are following the Bitcoin ecosystem you might have heard of it:
+BitPesa&nbsp;is a remittance product based on Bitcoin for Kenyan diaspora.
+That means people can send money to there relatives in Kenya using Bitcoin. Because of the digital nature of Bitcoin it is perfect for cross-border transactions that are slow and expensive with existing payment solution."/>
+
+<meta property="og:title" content="How to develop Bitcoin applications - an overview" />
+<meta property="og:description" content="At Railslove we have developed our first Bitcoin application that went into production early this year and if you are following the Bitcoin ecosystem you might have heard of it:
+BitPesa&nbsp;is a remittance product based on Bitcoin for Kenyan diaspora.
+That means people can send money to there relatives in Kenya using Bitcoin. Because of the digital nature of Bitcoin it is perfect for cross-border transactions that are slow and expensive with existing payment solution." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://michaelbumann.com/posts/2014-09-19-how-to-develop-bitcoin-applications-an-overview/" />
+<meta property="article:published_time" content="2014-09-19T21:07:19&#43;00:00"/>
+<meta property="article:modified_time" content="2014-09-19T21:07:19&#43;00:00"/>
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.dbc8a45fb0e96e9878f318b4ed00296cbef8a3abd1e6f0fb6dc377ab51d4686b.css" integrity="sha256-28ikX7Dpbph48xi07QApbL74o6vR5vD7bcN3q1HUaGs=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+
+</head>
+
+
+  
+  <body class="theme-base-0d ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      
+        
+        
+        
+        <div class="author-image">
+          <a href="http://michaelbumann.com"><img src="http://michaelbumann.com/img/profile_small.jpg" alt="me" class="img--circle img--headshot element--center"></a>
+        </div>
+        
+      
+      
+      <h1 class="site__title">
+        <a href="http://michaelbumann.com">Michael Bumann</a>
+      </h1>
+      <h2 class="site__description">
+         Hacker and open web enthusiast from planet Earth 
+      </h2>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Michael Bumann</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/about">
+						<span>About Me</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="contact">
+  <h4>Contact</h4>
+  <p>
+    <a href="mailto:hello@michaelbumann.com">hello@michaelbumann.com</a> 
+    <small>(<a href="https://gist.github.com/bumi/c3ad9e813af308c9587d">PGP</a>)</small>
+  </p>
+  <p>
+    <small>
+      <a href="https://signal.org/">Signal</a> or whatsapp: +4917622747893
+    </small>
+  </p>
+</section>
+
+        <section class="social">
+  <h4>Elsewhere on the interwebs</h4>
+	
+	<a href="https://twitter.com/bumi" rel="me"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://facebook.com/michaelbumann" rel="me"><i class="fab fa-facebook-f"></i></a>
+	
+	
+	<a href="https://github.com/bumi" rel="me"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	<a href="https://flickr.com/bumi" rel="me"><i class="fab fa-flickr fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://instagram.com/buuumi" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/michaelbumann" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="mailto:hello@michaelbumann.com" rel="me"><i class="fas fa-at fa-lg" aria-hidden="true"></i></a>
+	
+</section>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    <div class="content container">
+      
+    <article>
+  <header>
+    <h1>How to develop Bitcoin applications - an overview</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Sep 19, 2014
+    
+    
+    
+</div>
+
+
+  </header>
+  <div class="post">
+    <p>At <a href="http://railslove.com">Railslove</a> we have developed our first Bitcoin application that went into production early this year and if you are following the Bitcoin ecosystem you might have heard of it:<br /><a href="http://bitpesa.co">BitPesa</a>&nbsp;is a remittance product based on Bitcoin for Kenyan diaspora.</p>
+<p>That means people can send money to there relatives in Kenya using Bitcoin. Because of the digital nature of Bitcoin it is perfect for cross-border transactions that are slow and expensive with existing payment solution. <br />Read more about BitPesa for example here on <a href="http://www.coindesk.com/bitpesa-uses-bitcoin-slash-kenyan-remittance-costs/">CoinDesk</a>&nbsp;</p>
+<p>In this post I want to give you a brief introduction on how to write applications that integrate with the Bitcoin network and look into different options.</p>
+<p><strong>Using a Payment Service Provider</strong></p>
+<p>Like for traditional payment methods there are Payment Service Providers (PSP) for Bitcoin. These companies make it super easy for you to accept Bitcoin payments. <br />You basically just add a little snippet to your website and you are good to go. For companies that do not want to hold Bitcoins or want to instantly exchange parts of it to fiat currency these service provides settle your account in your currency. <br />That means you can request your amount in fiat currency, the customer pays in Bitcoin and the service provider transfers fiat currency to your traditional bank account.</p>
+<p>There are several companies out there that you can use. Some big players and some smaller ones that often are specialised on local markets:</p>
+<p>* <a href="http://bitpay.com">Bitpay</a>: probably the most famous Bitcoin PSP. Provides an extensive API and tools to integrate into your application. no transaction fees <br />* <a href="http://coinbase.com">Coinbase</a>: provides a hosted wallet as well as merchant services to accept Bitcoin. No transaction fees for the first 1Mio USD. <br />* <a href="http://coinify.com">Coinify</a>: provides a Bitcoin exchange and merchant services.<br />* <a href="http://yellowpay.co">Yellowpay</a>: a company providing specialized services for the Middle East.</p>
+<p><br /><strong>Using a service providing Bitcoin API</strong><br /><br />The second type of services provide try to make Bitcoin network more accessible for developers. <br />They focus on providing a secure Bitcoin infrastructure that the developers do not need to care about when integrating Bitcoin features. Restful HTTP APIs are provided to access data like addresses, blocks, transaction, etc. <br />Besides using a hosted service there are also tools like <a href="http://insight.is">insight.is</a> or <a href="http://toshi.io">toshi.io</a> that provide similar services but self hosted. They sit behind a full bitcoin core installation and expose a similar HTTP interface to built upon.</p>
+<p>* <a href="http://helloblock.io">helloblock.io</a>: extensive API for addresses, transactions, blocks, wallets. <br />* <a href="http://gem.co">gem.co</a>: currently in private beta<br />* <a href="http://toshi.io">toshi.io</a>: the newly open sourced ruby application written by Coinbase. It is a full bitcoin node and exposes a HTTP and Websocket API<br />* <a href="http://insight.is">insight.is</a>: an open source node.js application by bitpay. Integrates with the bitcoin code RPC interface and exposes a complete HTTP and Websocket API.</p>
+<p><strong>Writing your own integration</strong><br /><br />And then you of course can directly integrate with the Bitcoin network. <br />Here you can either call the RPC interface of the bitcoin core daemon or fully integrate Bitcoin into your application for example using the <a href="http://bitcoinj.github.io">bitcoinj library</a>.<br />This means you manually handle the Bitcoin keys and transactions in your application and you deal with your wallet.<br />For sure this allows the most exciting application to be built and I highly recommend looking into the bitcoinj library. It makes working with the network pretty easy. <br />The upcoming v0.12 release will also support <a href="https://en.bitcoin.it/wiki/Deterministic_Wallet">hirarchicaly deterministic wallets</a> that will allow easier backups and more security.</p>
+<p>* <a href="https://en.bitcoin.it/wiki/API_reference_%28JSON-RPC%29">bitcoin core RPC</a>: the core bitcoin application can be run as a daemon and expose a RPC interface to all its functionality<br />* <a href="https://bitcoinj.github.io/">bitcoinj</a>: the Java library that powers a lot of bitcoin wallets (like the <a href="https://play.google.com/store/apps/details?id=de.schildbach.wallet">Android Bitcoin wallet</a>). It lets you deeply integrate Bitcoin into your application. Have a look at the <a href="https://github.com/bitcoinj/bitcoinj/tree/master/examples/src/main/java/com/google/bitcoin/examples">examples</a> to get started.<br />* <a href="http://toshi.io">toshi.io</a>: Toshi is a full Bitcoin node so you not only can use its APIs but also integrate build on top of it and integrate it into your application.</p>
+<p><br />I hope this gives you some overview of how you can build apps for the Bitcoin ecosystem. Let me know you have questions or need help.</p>
+
+  </div>
+  <div class="post__meta">
+  
+  
+    
+    
+         <i class="fas fa-tags"></i>
+        
+        <a class="badge badge-tag" href="/tags/bitcoin">bitcoin</a>
+        
+    
+  
+  
+</div>  
+
+  
+<div id="commento"></div>
+<script src="https://cdn.commento.io/js/commento.js"></script>
+
+
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/2014-06-01-help-making-africahacktrip-the-movie/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Help making AfricaHackTrip - The Movie </span>
+    </a>
+    
+    
+    <a href="/posts/2014-12-10-yo-the-most-exciting-application-of-2014/" class="navigation-next">
+      <span class="navigation-tittle">Yo! - the most exciting application of 2014</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+</article>
+
+
+    </div>
+    
+    <script defer src="/js/fontawesome_v5.5.0_js_all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+
+
+    
+    
+    <script type="text/javascript">
+        
+        hljs.initHighlightingOnLoad();
+    </script>
+    
+
+
+
+  </body>
+</html>

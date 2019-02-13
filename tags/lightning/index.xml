@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lightning on Michael Bumann</title>
+    <link>http://michaelbumann.com/tags/lightning/</link>
+    <description>Recent content in Lightning on Michael Bumann</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Feb 2019 21:50:54 +0000</lastBuildDate>
+    
+	<atom:link href="http://michaelbumann.com/tags/lightning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>With ruby to space and back</title>
+      <link>http://michaelbumann.com/posts/2019-02-09-with-ruby-to-space-and-back/</link>
+      <pubDate>Sat, 09 Feb 2019 21:50:54 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2019-02-09-with-ruby-to-space-and-back/</guid>
+      <description>It is pretty amazing to live in a time when it is possible to broadcast data through satellites to pretty much the whole planet. The Blockstream Satellite project makes this possible. Their Satellite network not only broadcasts the Bitcoin blockchain around the world 24/7 for free but also provides an API that allows everybody to broadcast messages through this network. This is possible for for a small fee payable through the Bitcoin lightning network.</description>
+    </item>
+    
+    <item>
+      <title>Bitcoin lightning machine-to-machine API payments</title>
+      <link>http://michaelbumann.com/posts/2018-11-22-bitcoin-lightning-machine-to-machine-api-payments/</link>
+      <pubDate>Thu, 22 Nov 2018 21:45:10 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2018-11-22-bitcoin-lightning-machine-to-machine-api-payments/</guid>
+      <description>The Bitcoin lightning network is growing quickly. The lightning network is an exciting second layer protocol on top of the Bitcoin network that allows to send real near-instant payments and is perfectly suited for micro-/nano-transactions. The tools already work great and make it super easy for developers to integrate with the lightning network. I’ve lately experimented with it and built a demo to show machine-to-machine API payments. It allows the server to request a payment from the client; the client can automatically pay the invoice to access the resource from the server.</description>
+    </item>
+    
+    <item>
+      <title>How to install your own bank and payment service - your bitcoin and lightning node</title>
+      <link>http://michaelbumann.com/posts/2018-10-20-how-to-install-your-own-bank-and-payment-service-your-bitcoin-and-lightning-node/</link>
+      <pubDate>Sat, 20 Oct 2018 22:04:03 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2018-10-20-how-to-install-your-own-bank-and-payment-service-your-bitcoin-and-lightning-node/</guid>
+      <description>I’ve recently updated and re-installed some of my servers and bitcoin and lightning nodes that I am running. It’s amazing how easy it is to run and operate your own bank and payment service. And I encourage everybody to operate your own bitcoin full-node and lightning node.&amp;nbsp;
+Even though there are plenty of resources out there on how to install everything you need on the various systems, here are a few notes on my setup.</description>
+    </item>
+    
+  </channel>
+</rss>
