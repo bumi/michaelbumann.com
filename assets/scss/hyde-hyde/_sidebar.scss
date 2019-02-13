@@ -1,0 +1,105 @@
+.sidebar {
+  background-color: $sidebar-color;
+  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.9);
+  padding: 2rem 0rem;
+  text-align: center;
+  line-height: 1.4em;
+  font-size: $font-scale-dot8;
+  a {
+    color: $gray-1;
+    border: none;
+    &:hover {
+      color: $link-color;
+    }
+    &:focus {
+      color: $link-color;
+    }
+  }
+  .author-image {
+    display: block;
+    margin-top: 4px;
+  }
+  h1, h2, h3, h4 {
+    margin: 0.8rem 0 0.3rem 0;
+  }
+  h4 {
+    font-size: $font-scale-dot8;
+  }
+  p {
+    margin: 0.1rem;
+  }
+  small {
+  font-size: $font-scale-dot7;
+  line-height: 1.1rem;
+  }
+}
+
+.sidebar-nav {
+  text-align: center;
+  list-style: none;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding-left: 0;
+}
+
+.sidebar-nav-item {
+  display: block;
+  line-height: 1.75;
+  .active {
+    font-weight: bold;
+  }
+}
+.site__title {
+  font-size: $site__title-font-size;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  a:hover {
+    border: none;
+  }
+}
+
+.site__description {
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+.social, .contact {
+  text-align: center;
+  margin-top: 1rem;
+}
+.social {
+  a {
+    padding: 0 4px;
+    @include link-no-decoration();
+  }
+}
+
+.img--circle {
+	border-radius: 50%;
+}
+
+.img--headshot {
+	height: 115px;
+	width: 115px;
+}
+
+.img--caption {
+	font-style: italic;
+}
+
+%small-center-text {
+  font-size: $font-scale-dot7;
+  line-height: 1.1rem;
+  text-align: center;
+}
+
+.copyright {
+  padding-top: 1rem;
+	@extend %small-center-text;
+}
+.builtwith {
+  padding-top: .2rem;
+  @extend %small-center-text;
+}

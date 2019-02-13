@@ -1,0 +1,13 @@
+---
+date: "2016-02-24T18:47:42+00:00"
+draft: false
+tags: ["database", "git", "travel", "quantified self"]
+title: "Travel location tracker using git/GitHub as a time series database"
+---
+<p>I was looking for the most simple way of tracking the places I’ve visited. (If you ask why... I guess just because...for no real reason :) <br>There are quite some <a href="http://icecondor.com/">tools</a> out there that track your movements but most of them do that on a too detailed level and also store the location data in their (not my) databases. <br>At the same time I did not want to run and maintain a database myself... now what to do?</p>
+<p><strong>Using git/GitHub as replicable time series database</strong><br>I’ve written a small script that runs every day on my computer and my phone. It gets the current location through reverse geocoding and if the city changed it makes a git commit in a <a href="http://github.com/bumi/travels">GitHub repository</a>. The GitHub API allows you to do that through a simple HTTP request (<a href="https://developer.github.com/v3/repos/contents/#update-a-file">documentation</a>) . Through the same API you can also get a JSON representation of the commits (<a href="https://developer.github.com/v3/repos/commits/#list-commits-on-a-repository">documentation</a>) which then works perfectly as a travel log. Every visited place becomes a git commit, human and machine readable information is stored in the commit message.</p><p><b>The git repo becomes kind of a time series database speaking HTTP</b> (through the GitHub API). And as a bonus: backups are a simple git pull. </p><p>Here is the log: <a href="http://github.com/bumi/travels/commits">bumi/travels</a> - and here a <a href="http://where.is.michaelbumann.com/">nice website for it</a>.</p><p>I am currently in:  <span class="current-location"><a href="http://github.com/bumi/travels/commits">view log on github</a></span><br><span class="next-location"></span>
+</p>
+<p class="location">And here are the last cities I’ve visited (since tracking started):</p><ul class="location-list"></ul><p>
+<strong>Update: </strong> You can set the commit timestamp to the future to also record your next stops. To do this use the <i>--date</i> option on the <i>git commit</i> command.
+</p>
+<p>Do you have a recommendation of a place I should visit? Please <a href="https://github.com/bumi/travels/issues/new">create an issue</a>.</p>

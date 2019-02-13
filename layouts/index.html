@@ -1,0 +1,29 @@
+{{ define "header" }}
+  {{ partial "header.html" . }}
+{{ end }}
+
+{{ define "content" }}
+  <div class="post-list">
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+    {{ range $paginator.Pages }}
+      {{ if .Draft }}
+        {{ .Scratch.Set "draftPage" true }}
+      {{ else }}
+        {{ .Scratch.Set "draftPage" false }}
+      {{ end }}
+      <div class="post-list__item">
+        <h2 class="item__title--big">
+          <a href="{{ .RelPermalink }}" {{if .Scratch.Get "draftPage" }}class="draft"{{end}}>{{ .Title }}</a>
+        </h2>
+        {{ partial "posts/post-meta.html" . }}
+        {{ .Content }}
+      </div>
+      {{ .Scratch.Delete "draftPage" }}
+     {{ end }}
+  </div>
+  {{ partial "pagination.html" . }}
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "footer.html" . }}
+{{ end }}

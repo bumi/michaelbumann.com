@@ -1,0 +1,28 @@
+baseURL = "http://michaelbumann.com"
+languageCode = "en-us"
+title = "Michael Bumann"
+
+[params]
+  themeColor = "theme-base-0d"
+  description = "Hacker and open web enthusiast from planet Earth"
+  authorimage = "/img/profile_small.jpg"
+
+[params.meta]
+  keywords = "Michael Bumann, Software Developer, Software Engineer, Bitcoin, Lightning, Ethereum, Blockchain, World, Travel"
+  description = "Michael Bumann - Hacker and Thinker from planet Earth. Passionate about the web and decentralization."
+
+[params.social]
+  twitter = "bumi"
+  github = "bumi"
+  flickr = "bumi"
+  linkedin = "michaelbumann"
+  facebook = "michaelbumann"
+  instagram = "buuumi"
+  email = "hello@michaelbumann.com"
+  fediverse = "bumi@kosmos.social"
+
+[[menu.main]]
+  name = "About me"
+  identifier = "about"
+  url = "/about"
+

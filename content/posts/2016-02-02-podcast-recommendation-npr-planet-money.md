@@ -1,0 +1,7 @@
+---
+date: "2016-02-02T23:09:24+00:00"
+draft: false
+tags: 
+title: "Podcast recommendation: NPR Planet Money"
+---
+<p>I am really enjoying some of the episodes of the <a href="http://www.npr.org/sections/money/">NPR Planet Money</a> podcast lately. It is a twice a week podcast with just the right length easily discussing some economic topics.</p><p><a href="http://www.npr.org/sections/money/2011/04/27/135599807/about-planet-money">About the podcast:</a></p><blockquote><p>Imagine you could call up a friend and say, "Meet me at the bar and tell me what's going on with the economy." Now imagine that's actually a fun evening. That's what we're going for at Planet Money.<br></p></blockquote><p>Here are a few very interesting episodes:</p><ul><li><a href="http://www.npr.org/sections/money/2016/01/08/462438973/episode-675-the-cost-of-crossing">The Cost Of Crossing</a> -&nbsp;“Today on the show, we meet a businessman and a client in the evolving industry of human smuggling.”</li><li><a href="http://www.npr.org/sections/money/2016/01/29/464859624/episode-680-anatomy-of-a-scam">The Anatomy Of A Scam</a>&nbsp;- Analyzing what’s behind the&nbsp;"Work from home. Make thousands of dollars a week. Call this number!" messages.</li><li><a href="http://www.npr.org/sections/money/2015/12/04/458524627/episode-667-auditing-isis">Auditing ISIS</a>&nbsp;- Examining the budget of ISIS</li></ul>
