@@ -1,0 +1,17 @@
+---
+label: default post
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: title
+  name: title
+- type: tag_list
+  name: tags
+  label: tags
+- type: tag_list
+  name: categories
+  label: categories
+- type: datetime
+  label: date
+  name: date
