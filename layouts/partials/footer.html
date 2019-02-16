@@ -9,12 +9,12 @@
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/languages/{{.}}.min.js"></script>
             {{ end }}
         {{ end }}
-    {{ end }}
-    <script type="text/javascript">
+      <script type="text/javascript">
         {{ with $.Scratch.Get "hl_languages" }}
-        hljs.configure({languages: [{{(delimit . ", ")}}]});
+          hljs.configure({languages: [{{(delimit . ", ")}}]});
         {{ end }}
         hljs.initHighlightingOnLoad();
-    </script>
-    {{ $.Scratch.Delete "hl_languages" }}
+      </script>
+      {{ $.Scratch.Delete "hl_languages" }}
+    {{ end }}
 {{ end }}
