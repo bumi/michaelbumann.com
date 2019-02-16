@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bitcoin on Michael Bumann</title>
+    <link>http://michaelbumann.com/categories/bitcoin/</link>
+    <description>Recent content in Bitcoin on Michael Bumann</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Feb 2019 21:50:54 +0000</lastBuildDate>
+    
+	<atom:link href="http://michaelbumann.com/categories/bitcoin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>With ruby to space and back</title>
+      <link>http://michaelbumann.com/posts/2019-02-09-with-ruby-to-space-and-back/</link>
+      <pubDate>Sat, 09 Feb 2019 21:50:54 +0000</pubDate>
+      
+      <guid>http://michaelbumann.com/posts/2019-02-09-with-ruby-to-space-and-back/</guid>
+      <description>It is pretty amazing to live in a time when it is possible to broadcast data through satellites to pretty much the whole planet. The Blockstream Satellite project makes this possible. Their Satellite network not only broadcasts the Bitcoin blockchain around the world 24/7 for free but also provides an API that allows everybody to broadcast messages through this network. This is possible for for a small fee payable through the Bitcoin lightning network.</description>
+    </item>
+    
+  </channel>
+</rss>
