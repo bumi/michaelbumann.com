@@ -1,0 +1,69 @@
+<section class="location" style="display:none">
+  <h4>Where am I? (<a href="http://where.is.michaelbumann.com">log</a>)</h4>
+  <p>
+    <span class="current-location"></span> - drinks?
+  </p>
+  <p>
+    <span class="next-location"></span>
+  </p>
+</section>
+
+<script type="text/javascript">
+    fetch('https://api.github.com/repos/bumi/travels/commits?sha=locations').then(function(response) {
+      response.json().then(function(commits) {
+        var max = commits.length;// > 11 ? 11 : commits.length;
+        var future = [];
+        var past = [];
+        commits = commits.sort(function(c1, c2) { 
+            var d1 = new Date(c1.commit.author.date);
+            var d2 = new Date(c2.commit.author.date); 
+            if(d1 < d2) { return 1; }
+            if(d1 > d2) { return -1; }
+            return 0;
+        });
+        for(var i=0; i < max; i++) {
+          console.log(i)
+            try {
+                var c = commits[i].commit;
+                var commitMessage = c.message.split("\n");
+                var data = JSON.parse(commitMessage[commitMessage.length-1]);
+                var arrival = new Date(c.author.date);
+                var area = data.city || data.state || 'somewhere';
+                
+                var message = area + ', ' + data.country;
+                if(arrival > new Date()) {
+                    Array.prototype.forEach.call(
+                      document.getElementsByClassName('next-location'),
+                      function(e) { e.innerHTML = 'Planned: ' + message + ' (' + arrival.toDateString() + ')'; }
+                    ); // assuming the last commit in the future is the next stop. which is wrong, needs to get smarter and calculate the nearest in the future
+                    Array.prototype.forEach.call(
+                       document.getElementsByClassName('location-list'),
+                       function(e) { 
+                         e.append('<li class="future">' + message + ' (' + arrival.toDateString() + ')</li>');
+                       }
+                    );
+                    future.push(c);
+                } else {
+                    if(past.length === 0) {
+                      Array.prototype.forEach.call(
+                        document.getElementsByClassName('current-location'),
+                        function(e) { e.innerHTML = message; }// assuming the first in the past is the current location
+                      );
+                    }
+                    Array.prototype.forEach.call(
+                      document.getElementsByClassName('location-list'),
+                      function(e) { e.append('<li class="past">' + message + '</li>'); }
+                    );
+                    past.push(c);
+                }
+                Array.prototype.forEach.call( 
+                  document.getElementsByClassName('location'),
+                  function(e) { e.style.display = "block"; }
+                );
+            } catch(e) {
+                console.log(e); 
+            } 
+        };
+      });
+    });
+</script>
