@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruby on Michael Bumann</title>
-    <link>http://michaelbumann.com/tags/ruby/</link>
+    <link>https://michaelbumann.com/tags/ruby/</link>
     <description>Recent content in Ruby on Michael Bumann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Feb 2019 21:50:54 +0000</lastBuildDate>
     
-	<atom:link href="http://michaelbumann.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://michaelbumann.com/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>With ruby to space and back</title>
-      <link>http://michaelbumann.com/posts/2019-02-09-with-ruby-to-space-and-back/</link>
+      <link>https://michaelbumann.com/posts/2019-02-09-with-ruby-to-space-and-back/</link>
       <pubDate>Sat, 09 Feb 2019 21:50:54 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2019-02-09-with-ruby-to-space-and-back/</guid>
+      <guid>https://michaelbumann.com/posts/2019-02-09-with-ruby-to-space-and-back/</guid>
       <description>It is pretty amazing to live in a time when it is possible to broadcast data through satellites to pretty much the whole planet. The Blockstream Satellite project makes this possible. Their Satellite network not only broadcasts the Bitcoin blockchain around the world 24/7 for free but also provides an API that allows everybody to broadcast messages through this network. This is possible for for a small fee payable through the Bitcoin lightning network.</description>
     </item>
     
     <item>
       <title>OpenAlias lookup with ruby</title>
-      <link>http://michaelbumann.com/posts/2018-11-03-openalias-lookup-with-ruby/</link>
+      <link>https://michaelbumann.com/posts/2018-11-03-openalias-lookup-with-ruby/</link>
       <pubDate>Sat, 03 Nov 2018 18:53:28 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2018-11-03-openalias-lookup-with-ruby/</guid>
+      <guid>https://michaelbumann.com/posts/2018-11-03-openalias-lookup-with-ruby/</guid>
       <description>Halloween nights are scary and you are supposed to do scary things. This year I had a few hours in the hotel and so I&#39;ve built a ruby wrapper around the openalias.rs rust package. That is scary because I have no idea about rust :D
 But fist things first, what is OpenAlias?
 OpenAlias is an open standard for simpler addresses for any crypto currencies.

@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Payments on Michael Bumann</title>
-    <link>http://michaelbumann.com/tags/payments/</link>
+    <link>https://michaelbumann.com/tags/payments/</link>
     <description>Recent content in Payments on Michael Bumann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Nov 2018 21:45:10 +0000</lastBuildDate>
     
-	<atom:link href="http://michaelbumann.com/tags/payments/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://michaelbumann.com/tags/payments/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bitcoin lightning machine-to-machine API payments</title>
-      <link>http://michaelbumann.com/posts/2018-11-22-bitcoin-lightning-machine-to-machine-api-payments/</link>
+      <link>https://michaelbumann.com/posts/2018-11-22-bitcoin-lightning-machine-to-machine-api-payments/</link>
       <pubDate>Thu, 22 Nov 2018 21:45:10 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2018-11-22-bitcoin-lightning-machine-to-machine-api-payments/</guid>
+      <guid>https://michaelbumann.com/posts/2018-11-22-bitcoin-lightning-machine-to-machine-api-payments/</guid>
       <description>The Bitcoin lightning network is growing quickly. The lightning network is an exciting second layer protocol on top of the Bitcoin network that allows to send real near-instant payments and is perfectly suited for micro-/nano-transactions. The tools already work great and make it super easy for developers to integrate with the lightning network. I’ve lately experimented with it and built a demo to show machine-to-machine API payments. It allows the server to request a payment from the client; the client can automatically pay the invoice to access the resource from the server.</description>
     </item>
     
     <item>
       <title>Online payments: transfer value instead of information</title>
-      <link>http://michaelbumann.com/posts/2016-04-25-online-payments-transfer-value-instead-of-information/</link>
+      <link>https://michaelbumann.com/posts/2016-04-25-online-payments-transfer-value-instead-of-information/</link>
       <pubDate>Mon, 25 Apr 2016 16:27:01 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2016-04-25-online-payments-transfer-value-instead-of-information/</guid>
+      <guid>https://michaelbumann.com/posts/2016-04-25-online-payments-transfer-value-instead-of-information/</guid>
       <description>First online payments happened before SSL was officially released and browsers could not make secure connections. A custom client had to be used to transfer the card details securely from the customer to the merchant. That was around 1994. Today 90% of online transactions in the US are card payments. The international numbers are probably lower with significant higher numbers for local, alternative payment methods. But the concept is all the same: The customer transfers some information (card details, account numbers, etc.</description>
     </item>
     
     <item>
       <title>Experimenting with Bitcoin machine to machine payments</title>
-      <link>http://michaelbumann.com/posts/2016-03-20-experimenting-with-bitcoin-machine-to-machine-payments/</link>
+      <link>https://michaelbumann.com/posts/2016-03-20-experimenting-with-bitcoin-machine-to-machine-payments/</link>
       <pubDate>Sun, 20 Mar 2016 07:16:08 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2016-03-20-experimenting-with-bitcoin-machine-to-machine-payments/</guid>
+      <guid>https://michaelbumann.com/posts/2016-03-20-experimenting-with-bitcoin-machine-to-machine-payments/</guid>
       <description>We will see more and more machines directly and autonomously interacting with each other. Machines provide services to each other that are needed to fulfill their tasks.
 Many tools that we are regularly using today are already mashups relying on different services and with the rise IoT&amp;nbsp;we will see only more devices consuming remote services and services directly from other devices.&amp;nbsp;
 Providing services obviously also involves paying for these and this is where Bitcoin comes in.</description>
@@ -42,10 +42,10 @@ Providing services obviously also involves paying for these and this is where Bi
     
     <item>
       <title>Example client/server implementing of the Bitcoin Payment Protocol (BIP70)</title>
-      <link>http://michaelbumann.com/posts/2016-03-07-example-clientserver-implementing-of-the-bitcoin-payment-protocol-bip70/</link>
+      <link>https://michaelbumann.com/posts/2016-03-07-example-clientserver-implementing-of-the-bitcoin-payment-protocol-bip70/</link>
       <pubDate>Mon, 07 Mar 2016 17:46:05 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2016-03-07-example-clientserver-implementing-of-the-bitcoin-payment-protocol-bip70/</guid>
+      <guid>https://michaelbumann.com/posts/2016-03-07-example-clientserver-implementing-of-the-bitcoin-payment-protocol-bip70/</guid>
       <description>I&amp;rsquo;ve been experimenting with different possibilities to integrate Bitcoin payments into applications and websites. I believe payments must become easier and bitcoin provides some great possibilities there.&amp;nbsp;
 In the following post looks into the Bitcoin Payment Protocol (BIP70) and shows some code for a simple server implementation (in Ruby) and a client/wallet implementation (in Java).&amp;nbsp;
 What is the Payment Protocol?&amp;nbsp;

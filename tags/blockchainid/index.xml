@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blockchainid on Michael Bumann</title>
-    <link>http://michaelbumann.com/tags/blockchainid/</link>
+    <link>https://michaelbumann.com/tags/blockchainid/</link>
     <description>Recent content in Blockchainid on Michael Bumann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 26 Aug 2015 15:06:29 +0000</lastBuildDate>
     
-	<atom:link href="http://michaelbumann.com/tags/blockchainid/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://michaelbumann.com/tags/blockchainid/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>chainbook.bit - a decentralized social network</title>
-      <link>http://michaelbumann.com/posts/2015-08-26-chainbookbit-a-decentralized-social-network/</link>
+      <link>https://michaelbumann.com/posts/2015-08-26-chainbookbit-a-decentralized-social-network/</link>
       <pubDate>Wed, 26 Aug 2015 15:06:29 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2015-08-26-chainbookbit-a-decentralized-social-network/</guid>
+      <guid>https://michaelbumann.com/posts/2015-08-26-chainbookbit-a-decentralized-social-network/</guid>
       <description>One of my projects for the 2015 Chaos Communication Camp&amp;nbsp;has been chainbook.bit&amp;nbsp;A decentralized address book, or let’s call it social network, using the namecoin blockchain and remotestorage.
 The goal was to build an address book application that stores absolutely no user data and loads the contact information from a decentralized source managed by the contact itself.
 Components:&amp;nbsp;Namecoin is a decentralized open source information registration system. It is the first and imho the most interesting fork of Bitcoin.</description>

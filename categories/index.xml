@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Michael Bumann</title>
-    <link>http://michaelbumann.com/categories/</link>
+    <link>https://michaelbumann.com/categories/</link>
     <description>Recent content in Categories on Michael Bumann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Feb 2019 21:50:54 +0000</lastBuildDate>
     
-	<atom:link href="http://michaelbumann.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://michaelbumann.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bitcoin</title>
-      <link>http://michaelbumann.com/categories/bitcoin/</link>
+      <link>https://michaelbumann.com/categories/bitcoin/</link>
       <pubDate>Sat, 09 Feb 2019 21:50:54 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/categories/bitcoin/</guid>
+      <guid>https://michaelbumann.com/categories/bitcoin/</guid>
       <description></description>
     </item>
     

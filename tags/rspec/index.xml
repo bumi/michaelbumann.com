@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rspec on Michael Bumann</title>
-    <link>http://michaelbumann.com/tags/rspec/</link>
+    <link>https://michaelbumann.com/tags/rspec/</link>
     <description>Recent content in Rspec on Michael Bumann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Nov 2010 01:29:03 +0000</lastBuildDate>
     
-	<atom:link href="http://michaelbumann.com/tags/rspec/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://michaelbumann.com/tags/rspec/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>rspec is lovely</title>
-      <link>http://michaelbumann.com/posts/2010-11-12-rspec-is-lovely/</link>
+      <link>https://michaelbumann.com/posts/2010-11-12-rspec-is-lovely/</link>
       <pubDate>Fri, 12 Nov 2010 01:29:03 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2010-11-12-rspec-is-lovely/</guid>
+      <guid>https://michaelbumann.com/posts/2010-11-12-rspec-is-lovely/</guid>
       <description>A few days ago I&amp;rsquo;ve visited my friend and fellow railslover @reddavis in bath and I was lucky to get a great rspec2 tutorial at the bathcamp (the bath unconference). rspec really has some great features that make writing and maintaining specs a lot more easy and fun. Red has posted some examples on the railslove blog. So make sure to test rspec2 and read red&amp;rsquo;s post &amp;#13;</description>
     </item>
     

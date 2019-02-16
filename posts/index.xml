@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Michael Bumann</title>
-    <link>http://michaelbumann.com/posts/</link>
+    <link>https://michaelbumann.com/posts/</link>
     <description>Recent content in Posts on Michael Bumann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Feb 2019 21:50:54 +0000</lastBuildDate>
     
-	<atom:link href="http://michaelbumann.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://michaelbumann.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>With ruby to space and back</title>
-      <link>http://michaelbumann.com/posts/2019-02-09-with-ruby-to-space-and-back/</link>
+      <link>https://michaelbumann.com/posts/2019-02-09-with-ruby-to-space-and-back/</link>
       <pubDate>Sat, 09 Feb 2019 21:50:54 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2019-02-09-with-ruby-to-space-and-back/</guid>
+      <guid>https://michaelbumann.com/posts/2019-02-09-with-ruby-to-space-and-back/</guid>
       <description>It is pretty amazing to live in a time when it is possible to broadcast data through satellites to pretty much the whole planet. The Blockstream Satellite project makes this possible. Their Satellite network not only broadcasts the Bitcoin blockchain around the world 24/7 for free but also provides an API that allows everybody to broadcast messages through this network. This is possible for for a small fee payable through the Bitcoin lightning network.</description>
     </item>
     
     <item>
       <title>Bitcoin lightning machine-to-machine API payments</title>
-      <link>http://michaelbumann.com/posts/2018-11-22-bitcoin-lightning-machine-to-machine-api-payments/</link>
+      <link>https://michaelbumann.com/posts/2018-11-22-bitcoin-lightning-machine-to-machine-api-payments/</link>
       <pubDate>Thu, 22 Nov 2018 21:45:10 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2018-11-22-bitcoin-lightning-machine-to-machine-api-payments/</guid>
+      <guid>https://michaelbumann.com/posts/2018-11-22-bitcoin-lightning-machine-to-machine-api-payments/</guid>
       <description>The Bitcoin lightning network is growing quickly. The lightning network is an exciting second layer protocol on top of the Bitcoin network that allows to send real near-instant payments and is perfectly suited for micro-/nano-transactions. The tools already work great and make it super easy for developers to integrate with the lightning network. I’ve lately experimented with it and built a demo to show machine-to-machine API payments. It allows the server to request a payment from the client; the client can automatically pay the invoice to access the resource from the server.</description>
     </item>
     
     <item>
       <title>OpenAlias lookup with ruby</title>
-      <link>http://michaelbumann.com/posts/2018-11-03-openalias-lookup-with-ruby/</link>
+      <link>https://michaelbumann.com/posts/2018-11-03-openalias-lookup-with-ruby/</link>
       <pubDate>Sat, 03 Nov 2018 18:53:28 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2018-11-03-openalias-lookup-with-ruby/</guid>
+      <guid>https://michaelbumann.com/posts/2018-11-03-openalias-lookup-with-ruby/</guid>
       <description>Halloween nights are scary and you are supposed to do scary things. This year I had a few hours in the hotel and so I&#39;ve built a ruby wrapper around the openalias.rs rust package. That is scary because I have no idea about rust :D
 But fist things first, what is OpenAlias?
 OpenAlias is an open standard for simpler addresses for any crypto currencies.
@@ -43,39 +43,39 @@ It is a DNS based alias system that allows you to use a domain to lookup a crypt
     
     <item>
       <title>How to install your own bank and payment service - your bitcoin and lightning node</title>
-      <link>http://michaelbumann.com/posts/2018-10-20-how-to-install-your-own-bank-and-payment-service-your-bitcoin-and-lightning-node/</link>
+      <link>https://michaelbumann.com/posts/2018-10-20-how-to-install-your-own-bank-and-payment-service-your-bitcoin-and-lightning-node/</link>
       <pubDate>Sat, 20 Oct 2018 22:04:03 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2018-10-20-how-to-install-your-own-bank-and-payment-service-your-bitcoin-and-lightning-node/</guid>
+      <guid>https://michaelbumann.com/posts/2018-10-20-how-to-install-your-own-bank-and-payment-service-your-bitcoin-and-lightning-node/</guid>
       <description>I’ve recently updated and re-installed some of my servers and bitcoin and lightning nodes that I am running. It’s amazing how easy it is to run and operate your own bank and payment service. And I encourage everybody to operate your own bitcoin full-node and lightning node.&amp;nbsp;
 Even though there are plenty of resources out there on how to install everything you need on the various systems, here are a few notes on my setup.</description>
     </item>
     
     <item>
       <title>Wrapping Ethereum smart contracts and IPFS objects in a GraphQL API?</title>
-      <link>http://michaelbumann.com/posts/2018-02-27-wrapping-ethereum-smart-contracts-and-ipfs-objects-in-a-graphql-api/</link>
+      <link>https://michaelbumann.com/posts/2018-02-27-wrapping-ethereum-smart-contracts-and-ipfs-objects-in-a-graphql-api/</link>
       <pubDate>Tue, 27 Feb 2018 14:30:47 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2018-02-27-wrapping-ethereum-smart-contracts-and-ipfs-objects-in-a-graphql-api/</guid>
+      <guid>https://michaelbumann.com/posts/2018-02-27-wrapping-ethereum-smart-contracts-and-ipfs-objects-in-a-graphql-api/</guid>
       <description>I was just chatting with the always inspiring Max today about GraphQL.I’ve never really used GraphQL in production but I am pretty excited about the flexibility it brings for clients to query data from a server. GraphQL provides a easily understandable description of the data an API provides and gives the client the possibility to query exactly the data it needs in one single request.&amp;nbsp;
 Currently I am not building any APIs but requesting data from Ethereum smart contracts, IPFS, etc.</description>
     </item>
     
     <item>
       <title>bundle thank-you - a donation system for ruby gems (and other package managers)</title>
-      <link>http://michaelbumann.com/posts/2018-02-09-bundle-thank-you-a-donation-system-for-ruby-gems-and-other-package-managers/</link>
+      <link>https://michaelbumann.com/posts/2018-02-09-bundle-thank-you-a-donation-system-for-ruby-gems-and-other-package-managers/</link>
       <pubDate>Fri, 09 Feb 2018 14:27:15 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2018-02-09-bundle-thank-you-a-donation-system-for-ruby-gems-and-other-package-managers/</guid>
+      <guid>https://michaelbumann.com/posts/2018-02-09-bundle-thank-you-a-donation-system-for-ruby-gems-and-other-package-managers/</guid>
       <description>Nearly two years ago I’ve experimented with the idea of using bitcoin payments to tip open source projects. The idea is to analyze the dependencies of a project (by parsing the bundler Gemfile or npm package.json), extract donation information and send a “thank you” to these projects. Bitcoin is the perfect protocol for this. We can directly transfer value and do not need any intermediary. The projects and users do not have to agree on a service provider (like paypal or patreon), no signup es required.</description>
     </item>
     
     <item>
       <title>My tattoo from the Kaila devi fair</title>
-      <link>http://michaelbumann.com/posts/2017-11-05-my-tattoo-from-the-kaila-devi-fair/</link>
+      <link>https://michaelbumann.com/posts/2017-11-05-my-tattoo-from-the-kaila-devi-fair/</link>
       <pubDate>Sun, 05 Nov 2017 13:12:59 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2017-11-05-my-tattoo-from-the-kaila-devi-fair/</guid>
+      <guid>https://michaelbumann.com/posts/2017-11-05-my-tattoo-from-the-kaila-devi-fair/</guid>
       <description>Earlier this year I’ve been in SE Asia and while visiting Myanmar/Burma my good friend Puneet told me he will visit his mother in India. As I was thinking about moving to India after Myanmar anyway I was excited about the chance to meet him and his mother there!&amp;nbsp;
 I really like all the places I’ve seen in India so far and it has been great again!&amp;nbsp;
 Puneet now wrote on his blog&amp;nbsp;about our visit at the Kaila devi fair&amp;nbsp;where we ended up getting the most beautiful tattoos ever!</description>
@@ -83,48 +83,48 @@ Puneet now wrote on his blog&amp;nbsp;about our visit at the Kaila devi fair&amp
     
     <item>
       <title>Advertisement for the army?</title>
-      <link>http://michaelbumann.com/posts/2017-10-24-advertisement-for-the-army/</link>
+      <link>https://michaelbumann.com/posts/2017-10-24-advertisement-for-the-army/</link>
       <pubDate>Tue, 24 Oct 2017 11:53:32 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2017-10-24-advertisement-for-the-army/</guid>
+      <guid>https://michaelbumann.com/posts/2017-10-24-advertisement-for-the-army/</guid>
       <description>So here is a question: As far as I know doctors in Germany are not allowed to advertise freely and there are tough regulations on advertisement&amp;hellip;. but I have to constantly see that advertisement for the German army that looks more like a first-person shooter video game?!?
 During a games convention in Cologne the whole city was full of video-game like advertisement to join the army and to&amp;nbsp;“do what really counts”&amp;hellip; in&amp;nbsp;“Mali”&amp;nbsp;“[saving democracy]” for&amp;nbsp;“our country”&amp;hellip;</description>
     </item>
     
     <item>
       <title>#IamSatoshi - we are all Satoshi</title>
-      <link>http://michaelbumann.com/posts/2016-05-03-iamsatoshi-we-are-all-satoshi/</link>
+      <link>https://michaelbumann.com/posts/2016-05-03-iamsatoshi-we-are-all-satoshi/</link>
       <pubDate>Tue, 03 May 2016 15:25:58 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2016-05-03-iamsatoshi-we-are-all-satoshi/</guid>
+      <guid>https://michaelbumann.com/posts/2016-05-03-iamsatoshi-we-are-all-satoshi/</guid>
       <description>So there have been again some big media houses publishing stories that they have found Satoshi Nakamoto. This time again for real, really... trust us. The Bitcoin boards on reddit are full of posts about the story. Most of them are very critical and arguing it is a hoax. (wondering why the media companies always fail on that...but that’s a different story)
 It seems the whole Bitcoin world has no better topic to talk about.</description>
     </item>
     
     <item>
       <title>Online payments: transfer value instead of information</title>
-      <link>http://michaelbumann.com/posts/2016-04-25-online-payments-transfer-value-instead-of-information/</link>
+      <link>https://michaelbumann.com/posts/2016-04-25-online-payments-transfer-value-instead-of-information/</link>
       <pubDate>Mon, 25 Apr 2016 16:27:01 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2016-04-25-online-payments-transfer-value-instead-of-information/</guid>
+      <guid>https://michaelbumann.com/posts/2016-04-25-online-payments-transfer-value-instead-of-information/</guid>
       <description>First online payments happened before SSL was officially released and browsers could not make secure connections. A custom client had to be used to transfer the card details securely from the customer to the merchant. That was around 1994. Today 90% of online transactions in the US are card payments. The international numbers are probably lower with significant higher numbers for local, alternative payment methods. But the concept is all the same: The customer transfers some information (card details, account numbers, etc.</description>
     </item>
     
     <item>
       <title>Why I am excited about OpenBazaar &amp; Co.</title>
-      <link>http://michaelbumann.com/posts/2016-03-24-why-i-am-excited-about-openbazaar-co/</link>
+      <link>https://michaelbumann.com/posts/2016-03-24-why-i-am-excited-about-openbazaar-co/</link>
       <pubDate>Thu, 24 Mar 2016 20:11:34 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2016-03-24-why-i-am-excited-about-openbazaar-co/</guid>
+      <guid>https://michaelbumann.com/posts/2016-03-24-why-i-am-excited-about-openbazaar-co/</guid>
       <description>I am writing this from a small café in a nice little residential neighborhood. Some kids a are playing on the streets, people are passing for their evening stroll through the green avenues. Sometimes somebody stops right next to the café and screams up to the balcony next door. After a few words back and forth a small basket is let down. The person takes a bag out of it, puts some money in and walks away.</description>
     </item>
     
     <item>
       <title>Experimenting with Bitcoin machine to machine payments</title>
-      <link>http://michaelbumann.com/posts/2016-03-20-experimenting-with-bitcoin-machine-to-machine-payments/</link>
+      <link>https://michaelbumann.com/posts/2016-03-20-experimenting-with-bitcoin-machine-to-machine-payments/</link>
       <pubDate>Sun, 20 Mar 2016 07:16:08 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2016-03-20-experimenting-with-bitcoin-machine-to-machine-payments/</guid>
+      <guid>https://michaelbumann.com/posts/2016-03-20-experimenting-with-bitcoin-machine-to-machine-payments/</guid>
       <description>We will see more and more machines directly and autonomously interacting with each other. Machines provide services to each other that are needed to fulfill their tasks.
 Many tools that we are regularly using today are already mashups relying on different services and with the rise IoT&amp;nbsp;we will see only more devices consuming remote services and services directly from other devices.&amp;nbsp;
 Providing services obviously also involves paying for these and this is where Bitcoin comes in.</description>
@@ -132,10 +132,10 @@ Providing services obviously also involves paying for these and this is where Bi
     
     <item>
       <title>Don&#39;t ask where I&#39;m from</title>
-      <link>http://michaelbumann.com/posts/2016-03-17-dont-ask-where-im-from/</link>
+      <link>https://michaelbumann.com/posts/2016-03-17-dont-ask-where-im-from/</link>
       <pubDate>Thu, 17 Mar 2016 05:11:30 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2016-03-17-dont-ask-where-im-from/</guid>
+      <guid>https://michaelbumann.com/posts/2016-03-17-dont-ask-where-im-from/</guid>
       <description>Taiye Selasi: Don&#39;t ask where I&#39;m from, ask where I&#39;m a local:  How can a human being come from the concept of a &#34;nation state&#34;?
 History is real, Cultures are real, but countries and borders are invented!
 We should stop asking from which country someone is from.</description>
@@ -143,10 +143,10 @@ We should stop asking from which country someone is from.</description>
     
     <item>
       <title>Example client/server implementing of the Bitcoin Payment Protocol (BIP70)</title>
-      <link>http://michaelbumann.com/posts/2016-03-07-example-clientserver-implementing-of-the-bitcoin-payment-protocol-bip70/</link>
+      <link>https://michaelbumann.com/posts/2016-03-07-example-clientserver-implementing-of-the-bitcoin-payment-protocol-bip70/</link>
       <pubDate>Mon, 07 Mar 2016 17:46:05 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2016-03-07-example-clientserver-implementing-of-the-bitcoin-payment-protocol-bip70/</guid>
+      <guid>https://michaelbumann.com/posts/2016-03-07-example-clientserver-implementing-of-the-bitcoin-payment-protocol-bip70/</guid>
       <description>I&amp;rsquo;ve been experimenting with different possibilities to integrate Bitcoin payments into applications and websites. I believe payments must become easier and bitcoin provides some great possibilities there.&amp;nbsp;
 In the following post looks into the Bitcoin Payment Protocol (BIP70) and shows some code for a simple server implementation (in Ruby) and a client/wallet implementation (in Java).&amp;nbsp;
 What is the Payment Protocol?&amp;nbsp;
@@ -155,28 +155,28 @@ The Payment Protocol, described in Bitcoin Improvement Proposal 70, is a protoco
     
     <item>
       <title>Travel location tracker using git/GitHub as a time series database</title>
-      <link>http://michaelbumann.com/posts/2016-02-24-travel-location-tracker-using-gitgithub-as-a-time-series-database/</link>
+      <link>https://michaelbumann.com/posts/2016-02-24-travel-location-tracker-using-gitgithub-as-a-time-series-database/</link>
       <pubDate>Wed, 24 Feb 2016 18:47:42 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2016-02-24-travel-location-tracker-using-gitgithub-as-a-time-series-database/</guid>
+      <guid>https://michaelbumann.com/posts/2016-02-24-travel-location-tracker-using-gitgithub-as-a-time-series-database/</guid>
       <description>I was looking for the most simple way of tracking the places I’ve visited. (If you ask why... I guess just because...for no real reason :) There are quite some tools out there that track your movements but most of them do that on a too detailed level and also store the location data in their (not my) databases. At the same time I did not want to run and maintain a database myself.</description>
     </item>
     
     <item>
       <title>Meet Tasveer.de - collect photos, get prints delivered to your door</title>
-      <link>http://michaelbumann.com/posts/2016-02-15-meet-tasveerde-collect-photosget-prints-delivered-to-your-door/</link>
+      <link>https://michaelbumann.com/posts/2016-02-15-meet-tasveerde-collect-photosget-prints-delivered-to-your-door/</link>
       <pubDate>Mon, 15 Feb 2016 22:13:20 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2016-02-15-meet-tasveerde-collect-photosget-prints-delivered-to-your-door/</guid>
+      <guid>https://michaelbumann.com/posts/2016-02-15-meet-tasveerde-collect-photosget-prints-delivered-to-your-door/</guid>
       <description>A few months ago I&#39;ve built an app for my grandma. More or less the first time my skills have become directly useful for my grandma - so I am pretty happy about that. :) Our family is spread across many cities and continents and I thought it would be nice if she gets some impressions from her big family more often delivered to her house. First my plan was to get her a digital picture frame but she does not have internet and having something physical is still way nicer.</description>
     </item>
     
     <item>
       <title>Podcast recommendation: NPR Planet Money</title>
-      <link>http://michaelbumann.com/posts/2016-02-02-podcast-recommendation-npr-planet-money/</link>
+      <link>https://michaelbumann.com/posts/2016-02-02-podcast-recommendation-npr-planet-money/</link>
       <pubDate>Tue, 02 Feb 2016 23:09:24 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2016-02-02-podcast-recommendation-npr-planet-money/</guid>
+      <guid>https://michaelbumann.com/posts/2016-02-02-podcast-recommendation-npr-planet-money/</guid>
       <description>I am really enjoying some of the episodes of the NPR Planet Money podcast lately. It is a twice a week podcast with just the right length easily discussing some economic topics.
 About the podcast:
 Imagine you could call up a friend and say, &amp;ldquo;Meet me at the bar and tell me what&amp;rsquo;s going on with the economy.&amp;rdquo; Now imagine that&amp;rsquo;s actually a fun evening. That&amp;rsquo;s what we&amp;rsquo;re going for at Planet Money.</description>
@@ -184,29 +184,29 @@ Imagine you could call up a friend and say, &amp;ldquo;Meet me at the bar and te
     
     <item>
       <title>The death of the URL</title>
-      <link>http://michaelbumann.com/posts/2016-01-03-the-death-of-the-url/</link>
+      <link>https://michaelbumann.com/posts/2016-01-03-the-death-of-the-url/</link>
       <pubDate>Sun, 03 Jan 2016 13:18:31 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2016-01-03-the-death-of-the-url/</guid>
+      <guid>https://michaelbumann.com/posts/2016-01-03-the-death-of-the-url/</guid>
       <description>This was actually the title of a blog post written by Chris Messina in 2009. A blog post about which I have been thinking a lot last year - 2015.
 The URL is the reference to a document on a computer network that tells our computers where to find a resource and the mechanism on how to retrieve it. It is the unique identifier to any document on the internet and everyone of us is invited to create such an identifier.</description>
     </item>
     
     <item>
       <title>Building an Open Source Mobile Money System for financial inclusion</title>
-      <link>http://michaelbumann.com/posts/2015-12-21-building-an-open-source-mobile-money-system-for-financial-inclusion/</link>
+      <link>https://michaelbumann.com/posts/2015-12-21-building-an-open-source-mobile-money-system-for-financial-inclusion/</link>
       <pubDate>Mon, 21 Dec 2015 17:36:05 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2015-12-21-building-an-open-source-mobile-money-system-for-financial-inclusion/</guid>
+      <guid>https://michaelbumann.com/posts/2015-12-21-building-an-open-source-mobile-money-system-for-financial-inclusion/</guid>
       <description>There has been a lot of excitement in the last many years about how mobile money systems can bring financial services to previously underserved people. Mobile money systems make it possible to deliver various services at affordable costs to remote areas and groups of disadvantaged and low-income people that brick and mortar banks can not serve. Which is pretty cool: set up a few cell phone towers, distribute some SIM cards and cheap phones, add some software and people can transact.</description>
     </item>
     
     <item>
       <title>A jekyll theme optimized for meetups</title>
-      <link>http://michaelbumann.com/posts/2015-12-08-a-jekyll-theme-optimized-for-meetups/</link>
+      <link>https://michaelbumann.com/posts/2015-12-08-a-jekyll-theme-optimized-for-meetups/</link>
       <pubDate>Tue, 08 Dec 2015 22:31:12 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2015-12-08-a-jekyll-theme-optimized-for-meetups/</guid>
+      <guid>https://michaelbumann.com/posts/2015-12-08-a-jekyll-theme-optimized-for-meetups/</guid>
       <description>We are having an online payment meetup next week in Kigali and for the announcement I needed a simple website. I did not want to use something like meetup.com just because it is way too much and too complicated.&amp;nbsp;
 To make it easy to host I wanted to have a static website but with the functionality to RSVP and list the participants.&amp;nbsp;
 I’ve ended up forking @brianmaierjr’s great&amp;nbsp;jekyll theme long-haul&amp;nbsp;(as seen on the image above) and added some functionality that was needed for an event page: mainly RSVPs, embeded loaction map, and information about when and where.</description>
@@ -214,48 +214,48 @@ I’ve ended up forking @brianmaierjr’s great&amp;nbsp;jekyll theme long-haul&
     
     <item>
       <title>Hacker Beach Episode #4</title>
-      <link>http://michaelbumann.com/posts/2015-12-01-hacker-beach-episode-4/</link>
+      <link>https://michaelbumann.com/posts/2015-12-01-hacker-beach-episode-4/</link>
       <pubDate>Tue, 01 Dec 2015 22:30:23 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2015-12-01-hacker-beach-episode-4/</guid>
+      <guid>https://michaelbumann.com/posts/2015-12-01-hacker-beach-episode-4/</guid>
       <description>You might have heard the news on twitter or on the hackerbeach blog: Hacker Beach #4 is a go and will take place in Ecuador this year.&amp;nbsp;Râu Cao has written a post with the basic facts. But if you want to join you should hang out in IRC in #hackerbeach on freenode&amp;nbsp;where most of the chat is tacking place.&amp;nbsp;
 So, see you in&amp;nbsp;Canoa. (but make sure to keep an eye on El Niño)</description>
     </item>
     
     <item>
       <title>Some explanation about the Bitcoin-Telegram bot</title>
-      <link>http://michaelbumann.com/posts/2015-11-15-some-explanation-about-the-bitcoin-telegram-bot/</link>
+      <link>https://michaelbumann.com/posts/2015-11-15-some-explanation-about-the-bitcoin-telegram-bot/</link>
       <pubDate>Sun, 15 Nov 2015 13:24:31 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2015-11-15-some-explanation-about-the-bitcoin-telegram-bot/</guid>
+      <guid>https://michaelbumann.com/posts/2015-11-15-some-explanation-about-the-bitcoin-telegram-bot/</guid>
       <description>A few days ago I blogged about a little bot that I have been working on. The demo shows how m-pesa works in Kenya and how to request Bitcoin through a messenger application like whatsapp or telegram. Surprisingly it got way more attention than I expected and some for wrong reasons.
 In my post I emphasised that this is a technical demonstration on how something like this could work. It is not a product and not something that anyone can use.</description>
     </item>
     
     <item>
       <title>Remote control an android app from a web app</title>
-      <link>http://michaelbumann.com/posts/2015-11-15-remote-control-an-android-app-from-a-web-app/</link>
+      <link>https://michaelbumann.com/posts/2015-11-15-remote-control-an-android-app-from-a-web-app/</link>
       <pubDate>Sun, 15 Nov 2015 12:51:10 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2015-11-15-remote-control-an-android-app-from-a-web-app/</guid>
+      <guid>https://michaelbumann.com/posts/2015-11-15-remote-control-an-android-app-from-a-web-app/</guid>
       <description>When a service does not provide an API but you want to automate repetitive manual tasks you tend to use screen scrapping. You write a program that simply executes the same tasks that one would do manually. There are even great hosted tools out there to get structured data from websites that do not offer an API, for example have a look at mozenda or kimonolabs. For a demo that I have been doing lately I needed the same thing but for a mobile application, actually not even a regular mobile app but a SIM application.</description>
     </item>
     
     <item>
       <title>Sending Bitcoin to a Kenyan mobile money account using the telegram messenger</title>
-      <link>http://michaelbumann.com/posts/2015-10-23-sending-bitcoin-to-a-kenyan-mobile-money-account-using-the-telegram-messenger/</link>
+      <link>https://michaelbumann.com/posts/2015-10-23-sending-bitcoin-to-a-kenyan-mobile-money-account-using-the-telegram-messenger/</link>
       <pubDate>Fri, 23 Oct 2015 16:05:40 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2015-10-23-sending-bitcoin-to-a-kenyan-mobile-money-account-using-the-telegram-messenger/</guid>
+      <guid>https://michaelbumann.com/posts/2015-10-23-sending-bitcoin-to-a-kenyan-mobile-money-account-using-the-telegram-messenger/</guid>
       <description>Update: This post was about a technical prototype application that I&#39;ve developed which allowed you to use bitcoin to send money to an m-pesa mobile money account. I&#39;ve made a demo video about the app here. The demo got great attention and but sadly I had to remove the post and replace it with this clearification. If you have questions, please contact me Update (August 2016): KenyaInsights article: &#34;Revealed: How A Worried Safaricom Used Backdoor To Shutdown Bitcoin Which Was Set To Neutralize Mpesa Dominance In Kenya&#34;</description>
     </item>
     
     <item>
       <title>chainbook.bit - a decentralized social network</title>
-      <link>http://michaelbumann.com/posts/2015-08-26-chainbookbit-a-decentralized-social-network/</link>
+      <link>https://michaelbumann.com/posts/2015-08-26-chainbookbit-a-decentralized-social-network/</link>
       <pubDate>Wed, 26 Aug 2015 15:06:29 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2015-08-26-chainbookbit-a-decentralized-social-network/</guid>
+      <guid>https://michaelbumann.com/posts/2015-08-26-chainbookbit-a-decentralized-social-network/</guid>
       <description>One of my projects for the 2015 Chaos Communication Camp&amp;nbsp;has been chainbook.bit&amp;nbsp;A decentralized address book, or let’s call it social network, using the namecoin blockchain and remotestorage.
 The goal was to build an address book application that stores absolutely no user data and loads the contact information from a decentralized source managed by the contact itself.
 Components:&amp;nbsp;Namecoin is a decentralized open source information registration system. It is the first and imho the most interesting fork of Bitcoin.</description>
@@ -263,10 +263,10 @@ Components:&amp;nbsp;Namecoin is a decentralized open source information registr
     
     <item>
       <title>Money, Currency and Payments in the I.R. Iran</title>
-      <link>http://michaelbumann.com/posts/2015-06-01-money-currency-and-payments-in-the-ir-iran/</link>
+      <link>https://michaelbumann.com/posts/2015-06-01-money-currency-and-payments-in-the-ir-iran/</link>
       <pubDate>Mon, 01 Jun 2015 13:26:06 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2015-06-01-money-currency-and-payments-in-the-ir-iran/</guid>
+      <guid>https://michaelbumann.com/posts/2015-06-01-money-currency-and-payments-in-the-ir-iran/</guid>
       <description>I got a chance to visit Iran and I could learn a bit about their banking and payment system. In the following I’ve collected some notes about the currency/money and its use in Iran.
 
  Currency in the I.R. Iran
@@ -275,10 +275,10 @@ The official currency of I.R. Iran is Rial (﷼). In one of uncountable exchange
     
     <item>
       <title>Yo! - the most exciting application of 2014</title>
-      <link>http://michaelbumann.com/posts/2014-12-10-yo-the-most-exciting-application-of-2014/</link>
+      <link>https://michaelbumann.com/posts/2014-12-10-yo-the-most-exciting-application-of-2014/</link>
       <pubDate>Wed, 10 Dec 2014 17:34:32 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2014-12-10-yo-the-most-exciting-application-of-2014/</guid>
+      <guid>https://michaelbumann.com/posts/2014-12-10-yo-the-most-exciting-application-of-2014/</guid>
       <description>Yo! is probably one of the most exciting and strangest apps of 2014. What started on April Fools Day was suddenly a company valued at between $5 and $10 million in July and passed a million users just three months after its launch.
 So what is Yo!?
 The download page describes the app as the following:
@@ -288,10 +288,10 @@ Yo is a single-tap zero character communication tool.</description>
     
     <item>
       <title>How to develop Bitcoin applications - an overview</title>
-      <link>http://michaelbumann.com/posts/2014-09-19-how-to-develop-bitcoin-applications-an-overview/</link>
+      <link>https://michaelbumann.com/posts/2014-09-19-how-to-develop-bitcoin-applications-an-overview/</link>
       <pubDate>Fri, 19 Sep 2014 21:07:19 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2014-09-19-how-to-develop-bitcoin-applications-an-overview/</guid>
+      <guid>https://michaelbumann.com/posts/2014-09-19-how-to-develop-bitcoin-applications-an-overview/</guid>
       <description>At Railslove we have developed our first Bitcoin application that went into production early this year and if you are following the Bitcoin ecosystem you might have heard of it:
 BitPesa&amp;nbsp;is a remittance product based on Bitcoin for Kenyan diaspora.
 That means people can send money to there relatives in Kenya using Bitcoin. Because of the digital nature of Bitcoin it is perfect for cross-border transactions that are slow and expensive with existing payment solution.</description>
@@ -299,10 +299,10 @@ That means people can send money to there relatives in Kenya using Bitcoin. Beca
     
     <item>
       <title>Help making AfricaHackTrip - The Movie </title>
-      <link>http://michaelbumann.com/posts/2014-06-01-help-making-africahacktrip-the-movie/</link>
+      <link>https://michaelbumann.com/posts/2014-06-01-help-making-africahacktrip-the-movie/</link>
       <pubDate>Sun, 01 Jun 2014 22:01:00 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2014-06-01-help-making-africahacktrip-the-movie/</guid>
+      <guid>https://michaelbumann.com/posts/2014-06-01-help-making-africahacktrip-the-movie/</guid>
       <description>tl;dr: Please support our indiegogo campaign to make the AfricaHackTrip movie. Click here.
 
 From our tour to explore the vibrant East African tech scene in Kenya, Uganda, Rwanda and Tanzania we have collected more than 30 hour of video footage and thousands of pictures. Our goal now is to turn this into a movie - a documentary about East African tech hubs and about what we have found visiting some very inspiring places.</description>
@@ -310,30 +310,30 @@ From our tour to explore the vibrant East African tech scene in Kenya, Uganda, R
     
     <item>
       <title>Happy Happiness day!</title>
-      <link>http://michaelbumann.com/posts/2014-03-20-happy-happiness-day/</link>
+      <link>https://michaelbumann.com/posts/2014-03-20-happy-happiness-day/</link>
       <pubDate>Thu, 20 Mar 2014 12:13:04 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2014-03-20-happy-happiness-day/</guid>
+      <guid>https://michaelbumann.com/posts/2014-03-20-happy-happiness-day/</guid>
       <description>Today we are celebrating the International Day of Happiness. - A day established in 2012 by the United Nations General Assembly. The pursuit of happiness is a fundamental human goal.&amp;nbsp;
 So pass it on and give lots of hugs, love and high-5s to everyone!</description>
     </item>
     
     <item>
       <title>Bitcoin meetup in Stellenbosch (South Africa)</title>
-      <link>http://michaelbumann.com/posts/2013-11-27-bitcoin-meetup-in-stellenbosch-south-africa/</link>
+      <link>https://michaelbumann.com/posts/2013-11-27-bitcoin-meetup-in-stellenbosch-south-africa/</link>
       <pubDate>Wed, 27 Nov 2013 23:34:00 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2013-11-27-bitcoin-meetup-in-stellenbosch-south-africa/</guid>
+      <guid>https://michaelbumann.com/posts/2013-11-27-bitcoin-meetup-in-stellenbosch-south-africa/</guid>
       <description>I&#39;ve attended the first Bitcoin meetup&amp;nbsp;in Stellenbosch&amp;nbsp;yesterday. More than 50 people gathered at the University of Stellenbosch - which btw. has an amazing media lab. It was the first meetup of this kind in the area.&amp;nbsp;
 The quality of the talks was amazing. I was a little bit worried that is all about money and investment and bla but the opposite was the case. The talks and discussions have been quite technical and more about the possibilities of Bitcoin beyond what we currently see it/use it: transferring value.</description>
     </item>
     
     <item>
       <title>Did you know about Startup Weekend Baghdad?</title>
-      <link>http://michaelbumann.com/posts/2013-06-04-did-you-know-about-startup-weekend-baghdad/</link>
+      <link>https://michaelbumann.com/posts/2013-06-04-did-you-know-about-startup-weekend-baghdad/</link>
       <pubDate>Tue, 04 Jun 2013 22:37:54 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2013-06-04-did-you-know-about-startup-weekend-baghdad/</guid>
+      <guid>https://michaelbumann.com/posts/2013-06-04-did-you-know-about-startup-weekend-baghdad/</guid>
       <description>I always find it exciting when I learn about known events happening in places it did not expect them&amp;hellip;
 Did you know about:&amp;nbsp;
  Startup Weekend Baghdad (June 27th) Iraq Technology Entrepreneurs</description>
@@ -341,20 +341,20 @@ Did you know about:&amp;nbsp;
     
     <item>
       <title>Heros of Coworking Cologne / Gasmotorenfabrik</title>
-      <link>http://michaelbumann.com/posts/2013-02-28-heros-of-coworking-cologne-gasmotorenfabrik/</link>
+      <link>https://michaelbumann.com/posts/2013-02-28-heros-of-coworking-cologne-gasmotorenfabrik/</link>
       <pubDate>Thu, 28 Feb 2013 21:56:00 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2013-02-28-heros-of-coworking-cologne-gasmotorenfabrik/</guid>
+      <guid>https://michaelbumann.com/posts/2013-02-28-heros-of-coworking-cologne-gasmotorenfabrik/</guid>
       <description>So, as you know our coworking space is moving... and we are all very excited about the great new possibilities this offers. Currently everything is still very empty and, ja, it looks like moving... ;) but last week the space already could host the first user groups.&amp;nbsp;
 Because of seeing how much hard work this is I want to say thanks to some of the heros of Coworking Cologne. Please buy them a beer or two the next time you meet them.</description>
     </item>
     
     <item>
       <title>Die Gasmotorenfabrik/CoWoCo zieht um! Hello Bottfabrik</title>
-      <link>http://michaelbumann.com/posts/2013-02-16-die-gasmotorenfabrikcowoco-zieht-um-hello-bottfabrik/</link>
+      <link>https://michaelbumann.com/posts/2013-02-16-die-gasmotorenfabrikcowoco-zieht-um-hello-bottfabrik/</link>
       <pubDate>Sat, 16 Feb 2013 15:29:00 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2013-02-16-die-gasmotorenfabrikcowoco-zieht-um-hello-bottfabrik/</guid>
+      <guid>https://michaelbumann.com/posts/2013-02-16-die-gasmotorenfabrikcowoco-zieht-um-hello-bottfabrik/</guid>
       <description>Vor fast drei Jahren haben wir dasCoWoCo - auch bekannt als Gasmotorenfabrik - gestartet.&amp;nbsp;
 Mit vielen Ideen und noch viel mehr Arbeit haben wir das alte B&amp;uuml;rogeb&amp;auml;ude von Deutz in den Space verwandelt den wir heute kennen.&amp;nbsp;
 Ziel dabei war es immer einen flexibel nutzbaren und f&amp;uuml;r jeden offenen Raum zu schaffen.&amp;nbsp;
@@ -363,38 +363,38 @@ Einen Ort zum Arbeiten aber viel mehr auch ein Zuhause f&amp;uuml;r die verschie
     
     <item>
       <title>HAPPY NEW YEAR!</title>
-      <link>http://michaelbumann.com/posts/2013-01-01-happy-new-year/</link>
+      <link>https://michaelbumann.com/posts/2013-01-01-happy-new-year/</link>
       <pubDate>Tue, 01 Jan 2013 20:47:22 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2013-01-01-happy-new-year/</guid>
+      <guid>https://michaelbumann.com/posts/2013-01-01-happy-new-year/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>AfricaHackTrip meets Random Hacks of Kindness</title>
-      <link>http://michaelbumann.com/posts/2012-11-20-africahacktrip-meets-random-hacks-of-kindness/</link>
+      <link>https://michaelbumann.com/posts/2012-11-20-africahacktrip-meets-random-hacks-of-kindness/</link>
       <pubDate>Tue, 20 Nov 2012 15:08:00 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2012-11-20-africahacktrip-meets-random-hacks-of-kindness/</guid>
+      <guid>https://michaelbumann.com/posts/2012-11-20-africahacktrip-meets-random-hacks-of-kindness/</guid>
       <description>On December 1st and 2nd the next globale Random Hacks of Kindness hackathon is taking place all over the world. The RHoK is a global initiative to make &#34;the world a better place by developing practical, open source technology solutions to respond to some of the most complex challenges facing humanity.&#34;
 &amp;#13; The gloal is to bring people working around development and social issues (local charities, NGO’s, The World Bank, researchers, …) together with people from IT / Technology (software developers, engineers, technical people) and create solutions to create solutions using open technology on subjects that matters.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://michaelbumann.com/posts/2012-10-18-/</link>
+      <link>https://michaelbumann.com/posts/2012-10-18-/</link>
       <pubDate>Thu, 18 Oct 2012 10:42:44 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2012-10-18-/</guid>
+      <guid>https://michaelbumann.com/posts/2012-10-18-/</guid>
       <description>I&#39;m currently in Dublin at the Websummit and will be in the city until Sunday. Also I&#39;m excited about going to the nodecopter demo time/ beer.js &amp;#13; If you&#39;re around, let&#39;s meet for some coffee or beers. </description>
     </item>
     
     <item>
       <title>Nodecamp.eu 2012</title>
-      <link>http://michaelbumann.com/posts/2011-12-24-nodecampeu-2012/</link>
+      <link>https://michaelbumann.com/posts/2011-12-24-nodecampeu-2012/</link>
       <pubDate>Sat, 24 Dec 2011 14:34:00 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2011-12-24-nodecampeu-2012/</guid>
+      <guid>https://michaelbumann.com/posts/2011-12-24-nodecampeu-2012/</guid>
       <description>Nodecamp.eu was nothing but an incredible event and I was told that people really enjoyed and loved it. The quality of discussions and talks was just mind-blowing. For me I can also say the best event I&#39;ve co-organized ;)
 &amp;#13;     
 &amp;#13; For those who haven&#39;t attended: What is nodecamp.eu?
@@ -403,68 +403,68 @@ It&#39;s a fully community driven event. No marketing bla bla. focus strictly on
     
     <item>
       <title>New Railslove product for the EURO 2012</title>
-      <link>http://michaelbumann.com/posts/2011-12-23-new-railslove-product-for-the-euro-2012/</link>
+      <link>https://michaelbumann.com/posts/2011-12-23-new-railslove-product-for-the-euro-2012/</link>
       <pubDate>Fri, 23 Dec 2011 00:07:00 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2011-12-23-new-railslove-product-for-the-euro-2012/</guid>
+      <guid>https://michaelbumann.com/posts/2011-12-23-new-railslove-product-for-the-euro-2012/</guid>
       <description>As you might have heard, next year is the european football (soccer) championship and like for the last worldcup Railslove has an awesome betting community aka Tippspiel in the making. The Tippspiel was a big success at the latest world championship so we&#39;ve decided to improve it and offer it for the Euro 2012. &amp;#13; So what is it and who is it for? 
 &amp;#13; It&#39;s a corporate betting community.</description>
     </item>
     
     <item>
       <title>Cologne.rb meetups in 2012</title>
-      <link>http://michaelbumann.com/posts/2011-12-21-colognerb-meetups-in-2012/</link>
+      <link>https://michaelbumann.com/posts/2011-12-21-colognerb-meetups-in-2012/</link>
       <pubDate>Wed, 21 Dec 2011 23:28:09 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2011-12-21-colognerb-meetups-in-2012/</guid>
+      <guid>https://michaelbumann.com/posts/2011-12-21-colognerb-meetups-in-2012/</guid>
       <description>Last week a few rubyists met for some Glühwein and discussed the plans for the ruby meetups here in Cologne next year. These are the results. &amp;#13; next meetup: 18. Januar 2012&amp;#13; the location rotates and we&#39;ll meet in different locations every month.&amp;#13; we&#39;ll setup a new mailing list on google groups which is easier accessible as the current mailing list&amp;#13; we&#39;ll use hack hcking.de to publish the events and to have an ical feed&amp;#13; we&#39;ll create a new website based on the Hamburg Usergroup&amp;#13; Cologne.</description>
     </item>
     
     <item>
       <title>Cologne Ruby Meetup tonight 7:00 p.m.</title>
-      <link>http://michaelbumann.com/posts/2011-12-14-cologne-ruby-meetup-tonight-700-pm/</link>
+      <link>https://michaelbumann.com/posts/2011-12-14-cologne-ruby-meetup-tonight-700-pm/</link>
       <pubDate>Wed, 14 Dec 2011 15:37:00 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2011-12-14-cologne-ruby-meetup-tonight-700-pm/</guid>
+      <guid>https://michaelbumann.com/posts/2011-12-14-cologne-ruby-meetup-tonight-700-pm/</guid>
       <description>Just a quick reminder we will meet tonight at the christmas market at Heumarkt. We&#39;ll meet exactly here.
 &amp;#13; if you don&#39;t find us. call me and follow my tweets.</description>
     </item>
     
     <item>
       <title>Dear Rubyists from greater Cologne! </title>
-      <link>http://michaelbumann.com/posts/2011-11-25-dear-rubyists-from-greater-cologne/</link>
+      <link>https://michaelbumann.com/posts/2011-11-25-dear-rubyists-from-greater-cologne/</link>
       <pubDate>Fri, 25 Nov 2011 19:01:39 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2011-11-25-dear-rubyists-from-greater-cologne/</guid>
+      <guid>https://michaelbumann.com/posts/2011-11-25-dear-rubyists-from-greater-cologne/</guid>
       <description>In November 2005 we&#39;ve started the first Ruby usergroup in cologne. Back then we&#39;ve been 4 people who met for beers. This was nearly exactly 6 years ago. Unfortunately the meetup has soon become inactive - actually I can not remember when that was and how it happened.
 &amp;#13; After that, I guess in 2007 the rurug.de started with greater success. It was a meetup which first took place in the rooms of the Chaos Computer Club Cologne.</description>
     </item>
     
     <item>
       <title>Thank you. </title>
-      <link>http://michaelbumann.com/posts/2011-11-24-thank-you/</link>
+      <link>https://michaelbumann.com/posts/2011-11-24-thank-you/</link>
       <pubDate>Thu, 24 Nov 2011 23:39:49 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2011-11-24-thank-you/</guid>
+      <guid>https://michaelbumann.com/posts/2011-11-24-thank-you/</guid>
       <description>Since today is Thanksgiving I was thinking what I&#39;m thankful for in my everyday developer life. These were the first 3 or 4 things that came to my mind. &amp;#13; my coworkers and our clients: For making everyday a new exciting challenge. for allowing me to work on exciting projects and to learn every day. For giving me freedom and inspiration to experiment. Without you this would be pretty boring. &amp;lt;3 &amp;lt;3 &amp;lt;3</description>
     </item>
     
     <item>
       <title>Global Day of Coderetreat Cologne/Bonn</title>
-      <link>http://michaelbumann.com/posts/2011-11-23-global-day-of-coderetreat-colognebonn/</link>
+      <link>https://michaelbumann.com/posts/2011-11-23-global-day-of-coderetreat-colognebonn/</link>
       <pubDate>Wed, 23 Nov 2011 23:39:26 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2011-11-23-global-day-of-coderetreat-colognebonn/</guid>
+      <guid>https://michaelbumann.com/posts/2011-11-23-global-day-of-coderetreat-colognebonn/</guid>
       <description>The upcoming saturday (Dez. 3rd) is Global Day of Coderetreat. It&amp;rsquo;s a world-wide event celebrating passion and software craftsmanship. &amp;#13; &amp;#13; Coderetreat is a day-long, intensive practice event, focusing on the fundamentals of software development and design.
 &amp;#13; &amp;#13; You can find more information about the Coderetreat format and the event on the official website. For cologne all the information is on a github wiki and you should follow the office twitter account for updates.</description>
     </item>
     
     <item>
       <title>What&#39;s in your bag? - Pictures of the Railslove Team</title>
-      <link>http://michaelbumann.com/posts/2011-11-23-whats-in-your-bag-pictures-of-the-railslove-team/</link>
+      <link>https://michaelbumann.com/posts/2011-11-23-whats-in-your-bag-pictures-of-the-railslove-team/</link>
       <pubDate>Wed, 23 Nov 2011 23:08:00 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2011-11-23-whats-in-your-bag-pictures-of-the-railslove-team/</guid>
+      <guid>https://michaelbumann.com/posts/2011-11-23-whats-in-your-bag-pictures-of-the-railslove-team/</guid>
       <description>Fellow Railslover Paul is currently taking pictures of the whole team. For that he also asked everyone to show what&#39;s in our bags and took pictures of the belongings. &amp;#13; I really love the results. What are the pictures telling about the people? ;) &amp;#13; 
 &amp;#13; Have a look at the first batch of pictures in the photoset on facebook.
 &amp;#13; And what&#39;s in your bag?</description>
@@ -472,38 +472,38 @@ It&#39;s a fully community driven event. No marketing bla bla. focus strictly on
     
     <item>
       <title>around the web 30/11</title>
-      <link>http://michaelbumann.com/posts/2010-11-29-around-the-web-3011/</link>
+      <link>https://michaelbumann.com/posts/2010-11-29-around-the-web-3011/</link>
       <pubDate>Mon, 29 Nov 2010 23:12:00 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2010-11-29-around-the-web-3011/</guid>
+      <guid>https://michaelbumann.com/posts/2010-11-29-around-the-web-3011/</guid>
       <description>Endtable, an ORM for CouchDB on Node.JS&amp;#13; Gitmodel - An ActiveModel-compliant persistence framework for Ruby that uses Git for versioning and remote syncing.&amp;#13; Fancy CSS Buttons using Compass&amp;#13; Baker is an HTML5 ebook framework to publish books on the iPad using open web standards&amp;#13; CouchDB URL API Documentation&amp;#13; Magentor - Ruby wrapper for the magento xmlrpc api&amp;#13; Ruby&#39;s object model - Metaprogramming and other magic&amp;#13; RubyDrop - roll-your-own, Dropbox clone. It uses Git as the backend for file tracking and remote syncing&amp;#13; waterunderice - Resumable, asynchronous file uploads using WebSockets in HTML 5 compliant browsers&amp;#13; geo_mere_laal - Zero-effort creation of Location-aware Rails application based on W3C Geolocaton API.</description>
     </item>
     
     <item>
       <title>rspec is lovely</title>
-      <link>http://michaelbumann.com/posts/2010-11-12-rspec-is-lovely/</link>
+      <link>https://michaelbumann.com/posts/2010-11-12-rspec-is-lovely/</link>
       <pubDate>Fri, 12 Nov 2010 01:29:03 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2010-11-12-rspec-is-lovely/</guid>
+      <guid>https://michaelbumann.com/posts/2010-11-12-rspec-is-lovely/</guid>
       <description>A few days ago I&amp;rsquo;ve visited my friend and fellow railslover @reddavis in bath and I was lucky to get a great rspec2 tutorial at the bathcamp (the bath unconference). rspec really has some great features that make writing and maintaining specs a lot more easy and fun. Red has posted some examples on the railslove blog. So make sure to test rspec2 and read red&amp;rsquo;s post &amp;#13;</description>
     </item>
     
     <item>
       <title>my new home on the internet</title>
-      <link>http://michaelbumann.com/posts/2010-08-22-my-new-home-on-the-internet/</link>
+      <link>https://michaelbumann.com/posts/2010-08-22-my-new-home-on-the-internet/</link>
       <pubDate>Sun, 22 Aug 2010 00:03:29 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2010-08-22-my-new-home-on-the-internet/</guid>
+      <guid>https://michaelbumann.com/posts/2010-08-22-my-new-home-on-the-internet/</guid>
       <description>I haven&#39;t been blogging for quite a while...so yeah, finally this is my new blog. Hosted on tumblr. Expect random stuff about the web, web development, Ruby, Rails, JavaScript, and anything else that comes to my head.
 &amp;#13; Actually I&#39;m still looking for a perfect software that provides the tools to publish online. I&#39;d basicly like to do is some kind of aggregation of stuff I&#39;ve published somewhere on the web into my blogging stream.</description>
     </item>
     
     <item>
       <title>Hello, is this thing on?</title>
-      <link>http://michaelbumann.com/posts/2010-08-08-hello-is-this-thing-on/</link>
+      <link>https://michaelbumann.com/posts/2010-08-08-hello-is-this-thing-on/</link>
       <pubDate>Sun, 08 Aug 2010 00:33:23 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2010-08-08-hello-is-this-thing-on/</guid>
+      <guid>https://michaelbumann.com/posts/2010-08-08-hello-is-this-thing-on/</guid>
       <description>1-2, 1-2 test. ;)
 &amp;#13; another try for a tumblog. </description>
     </item>

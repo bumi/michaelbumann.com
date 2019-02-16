@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Graphql on Michael Bumann</title>
-    <link>http://michaelbumann.com/tags/graphql/</link>
+    <link>https://michaelbumann.com/tags/graphql/</link>
     <description>Recent content in Graphql on Michael Bumann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 27 Feb 2018 14:30:47 +0000</lastBuildDate>
     
-	<atom:link href="http://michaelbumann.com/tags/graphql/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://michaelbumann.com/tags/graphql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Wrapping Ethereum smart contracts and IPFS objects in a GraphQL API?</title>
-      <link>http://michaelbumann.com/posts/2018-02-27-wrapping-ethereum-smart-contracts-and-ipfs-objects-in-a-graphql-api/</link>
+      <link>https://michaelbumann.com/posts/2018-02-27-wrapping-ethereum-smart-contracts-and-ipfs-objects-in-a-graphql-api/</link>
       <pubDate>Tue, 27 Feb 2018 14:30:47 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2018-02-27-wrapping-ethereum-smart-contracts-and-ipfs-objects-in-a-graphql-api/</guid>
+      <guid>https://michaelbumann.com/posts/2018-02-27-wrapping-ethereum-smart-contracts-and-ipfs-objects-in-a-graphql-api/</guid>
       <description>I was just chatting with the always inspiring Max today about GraphQL.I’ve never really used GraphQL in production but I am pretty excited about the flexibility it brings for clients to query data from a server. GraphQL provides a easily understandable description of the data an API provides and gives the client the possibility to query exactly the data it needs in one single request.&amp;nbsp;
 Currently I am not building any APIs but requesting data from Ethereum smart contracts, IPFS, etc.</description>
     </item>

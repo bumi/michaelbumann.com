@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quantified Self on Michael Bumann</title>
-    <link>http://michaelbumann.com/tags/quantified-self/</link>
+    <link>https://michaelbumann.com/tags/quantified-self/</link>
     <description>Recent content in Quantified Self on Michael Bumann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Feb 2016 18:47:42 +0000</lastBuildDate>
     
-	<atom:link href="http://michaelbumann.com/tags/quantified-self/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://michaelbumann.com/tags/quantified-self/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Travel location tracker using git/GitHub as a time series database</title>
-      <link>http://michaelbumann.com/posts/2016-02-24-travel-location-tracker-using-gitgithub-as-a-time-series-database/</link>
+      <link>https://michaelbumann.com/posts/2016-02-24-travel-location-tracker-using-gitgithub-as-a-time-series-database/</link>
       <pubDate>Wed, 24 Feb 2016 18:47:42 +0000</pubDate>
       
-      <guid>http://michaelbumann.com/posts/2016-02-24-travel-location-tracker-using-gitgithub-as-a-time-series-database/</guid>
+      <guid>https://michaelbumann.com/posts/2016-02-24-travel-location-tracker-using-gitgithub-as-a-time-series-database/</guid>
       <description>I was looking for the most simple way of tracking the places I’ve visited. (If you ask why... I guess just because...for no real reason :) There are quite some tools out there that track your movements but most of them do that on a too detailed level and also store the location data in their (not my) databases. At the same time I did not want to run and maintain a database myself.</description>
     </item>
     
