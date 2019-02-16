@@ -40,7 +40,7 @@ Providing services obviously also involves paying for these and this is where Bi
 
 
 
-<link rel="stylesheet" href="/scss/hyde-hyde.dbc8a45fb0e96e9878f318b4ed00296cbef8a3abd1e6f0fb6dc377ab51d4686b.css" integrity="sha256-28ikX7Dpbph48xi07QApbL74o6vR5vD7bcN3q1HUaGs=">
+<link rel="stylesheet" href="/scss/hyde-hyde.9161e8cb262d15538aa768e7bebbd539871d50f89e527ef38a91d2d18b5b8f76.css" integrity="sha256-kWHoyyYtFVOKp2jnvrvVOYcdUPieUn7zipHS0Ytbj3Y=">
 
 
 <link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
@@ -147,6 +147,76 @@ Providing services obviously also involves paying for these and this is where Bi
 	
 </section>
 
+        <section class="location" style="display:none">
+  <h4>Where am I? (<a href="http://where.is.michaelbumann.com">log</a>)</h4>
+  <p>
+    <span class="current-location"></span> - drinks?
+  </p>
+  <p>
+    <span class="next-location"></span>
+  </p>
+</section>
+
+<script type="text/javascript">
+    fetch('https://api.github.com/repos/bumi/travels/commits?sha=locations').then(function(response) {
+      response.json().then(function(commits) {
+        var max = commits.length;
+        var future = [];
+        var past = [];
+        commits = commits.sort(function(c1, c2) { 
+            var d1 = new Date(c1.commit.author.date);
+            var d2 = new Date(c2.commit.author.date); 
+            if(d1 < d2) { return 1; }
+            if(d1 > d2) { return -1; }
+            return 0;
+        });
+        for(var i=0; i < max; i++) {
+          console.log(i)
+            try {
+                var c = commits[i].commit;
+                var commitMessage = c.message.split("\n");
+                var data = JSON.parse(commitMessage[commitMessage.length-1]);
+                var arrival = new Date(c.author.date);
+                var area = data.city || data.state || 'somewhere';
+                
+                var message = area + ', ' + data.country;
+                if(arrival > new Date()) {
+                    Array.prototype.forEach.call(
+                      document.getElementsByClassName('next-location'),
+                      function(e) { e.innerHTML = 'Planned: ' + message + ' (' + arrival.toDateString() + ')'; }
+                    ); 
+                    Array.prototype.forEach.call(
+                       document.getElementsByClassName('location-list'),
+                       function(e) { 
+                         e.append('<li class="future">' + message + ' (' + arrival.toDateString() + ')</li>');
+                       }
+                    );
+                    future.push(c);
+                } else {
+                    if(past.length === 0) {
+                      Array.prototype.forEach.call(
+                        document.getElementsByClassName('current-location'),
+                        function(e) { e.innerHTML = message; }
+                      );
+                    }
+                    Array.prototype.forEach.call(
+                      document.getElementsByClassName('location-list'),
+                      function(e) { e.append('<li class="past">' + message + '</li>'); }
+                    );
+                    past.push(c);
+                }
+                Array.prototype.forEach.call( 
+                  document.getElementsByClassName('location'),
+                  function(e) { e.style.display = "block"; }
+                );
+            } catch(e) {
+                console.log(e); 
+            } 
+        };
+      });
+    });
+</script>
+
       </div>
     </div>
   </div>
@@ -235,11 +305,6 @@ For sure something to keep an eye on.
 
 
     
-    
-    <script type="text/javascript">
-        
-        hljs.initHighlightingOnLoad();
-    </script>
     
 
 
