@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rust on Michael Bumann</title>
+    <title>rust on Michael Bumann</title>
     <link>https://michaelbumann.com/tags/rust/</link>
-    <description>Recent content in Rust on Michael Bumann</description>
+    <description>Recent content in rust on Michael Bumann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Nov 2018 18:53:28 +0000</lastBuildDate>

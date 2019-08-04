@@ -6,40 +6,40 @@
     <description>Recent content in Tags on Michael Bumann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Oct 2017 11:53:32 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Aug 2019 18:50:54 +0000</lastBuildDate>
     
 	<atom:link href="https://michaelbumann.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Advertisement</title>
-      <link>https://michaelbumann.com/tags/advertisement/</link>
-      <pubDate>Tue, 24 Oct 2017 11:53:32 +0000</pubDate>
+      <title>africa</title>
+      <link>https://michaelbumann.com/tags/africa/</link>
+      <pubDate>Sat, 03 Aug 2019 18:50:54 +0000</pubDate>
       
-      <guid>https://michaelbumann.com/tags/advertisement/</guid>
+      <guid>https://michaelbumann.com/tags/africa/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Api</title>
-      <link>https://michaelbumann.com/tags/api/</link>
-      <pubDate>Thu, 22 Nov 2018 21:45:10 +0000</pubDate>
+      <title>travel</title>
+      <link>https://michaelbumann.com/tags/travel/</link>
+      <pubDate>Sat, 03 Aug 2019 18:50:54 +0000</pubDate>
       
-      <guid>https://michaelbumann.com/tags/api/</guid>
+      <guid>https://michaelbumann.com/tags/travel/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bip70</title>
-      <link>https://michaelbumann.com/tags/bip70/</link>
-      <pubDate>Mon, 07 Mar 2016 17:46:05 +0000</pubDate>
+      <title>world</title>
+      <link>https://michaelbumann.com/tags/world/</link>
+      <pubDate>Sat, 03 Aug 2019 18:50:54 +0000</pubDate>
       
-      <guid>https://michaelbumann.com/tags/bip70/</guid>
+      <guid>https://michaelbumann.com/tags/world/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bitcoin</title>
+      <title>bitcoin</title>
       <link>https://michaelbumann.com/tags/bitcoin/</link>
       <pubDate>Sat, 09 Feb 2019 21:50:54 +0000</pubDate>
       
@@ -48,25 +48,7 @@
     </item>
     
     <item>
-      <title>Blockchain</title>
-      <link>https://michaelbumann.com/tags/blockchain/</link>
-      <pubDate>Mon, 21 Dec 2015 17:36:05 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/blockchain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blockchainid</title>
-      <link>https://michaelbumann.com/tags/blockchainid/</link>
-      <pubDate>Wed, 26 Aug 2015 15:06:29 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/blockchainid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blockstream</title>
+      <title>blockstream</title>
       <link>https://michaelbumann.com/tags/blockstream/</link>
       <pubDate>Sat, 09 Feb 2019 21:50:54 +0000</pubDate>
       
@@ -75,133 +57,7 @@
     </item>
     
     <item>
-      <title>Colored Coins</title>
-      <link>https://michaelbumann.com/tags/colored-coins/</link>
-      <pubDate>Mon, 21 Dec 2015 17:36:05 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/colored-coins/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Database</title>
-      <link>https://michaelbumann.com/tags/database/</link>
-      <pubDate>Wed, 24 Feb 2016 18:47:42 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/database/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Development</title>
-      <link>https://michaelbumann.com/tags/development/</link>
-      <pubDate>Wed, 10 Dec 2014 17:34:32 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Donation</title>
-      <link>https://michaelbumann.com/tags/donation/</link>
-      <pubDate>Fri, 09 Feb 2018 14:27:15 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/donation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Em2012</title>
-      <link>https://michaelbumann.com/tags/em2012/</link>
-      <pubDate>Fri, 23 Dec 2011 00:07:00 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/em2012/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ethereum</title>
-      <link>https://michaelbumann.com/tags/ethereum/</link>
-      <pubDate>Tue, 27 Feb 2018 14:30:47 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/ethereum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Eu2012</title>
-      <link>https://michaelbumann.com/tags/eu2012/</link>
-      <pubDate>Fri, 23 Dec 2011 00:07:00 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/eu2012/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Euro2012</title>
-      <link>https://michaelbumann.com/tags/euro2012/</link>
-      <pubDate>Fri, 23 Dec 2011 00:07:00 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/euro2012/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>https://michaelbumann.com/tags/git/</link>
-      <pubDate>Wed, 24 Feb 2016 18:47:42 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graphql</title>
-      <link>https://michaelbumann.com/tags/graphql/</link>
-      <pubDate>Tue, 27 Feb 2018 14:30:47 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/graphql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Iamsatoshi</title>
-      <link>https://michaelbumann.com/tags/iamsatoshi/</link>
-      <pubDate>Tue, 03 May 2016 15:25:58 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/iamsatoshi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Internet of Things</title>
-      <link>https://michaelbumann.com/tags/internet-of-things/</link>
-      <pubDate>Wed, 10 Dec 2014 17:34:32 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/internet-of-things/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Iot</title>
-      <link>https://michaelbumann.com/tags/iot/</link>
-      <pubDate>Sun, 20 Mar 2016 07:16:08 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/iot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ipfs</title>
-      <link>https://michaelbumann.com/tags/ipfs/</link>
-      <pubDate>Tue, 27 Feb 2018 14:30:47 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/ipfs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lightning</title>
+      <title>lightning</title>
       <link>https://michaelbumann.com/tags/lightning/</link>
       <pubDate>Sat, 09 Feb 2019 21:50:54 +0000</pubDate>
       
@@ -210,29 +66,38 @@
     </item>
     
     <item>
-      <title>Lnd</title>
-      <link>https://michaelbumann.com/tags/lnd/</link>
-      <pubDate>Sat, 20 Oct 2018 22:04:03 +0000</pubDate>
+      <title>ruby</title>
+      <link>https://michaelbumann.com/tags/ruby/</link>
+      <pubDate>Sat, 09 Feb 2019 21:50:54 +0000</pubDate>
       
-      <guid>https://michaelbumann.com/tags/lnd/</guid>
+      <guid>https://michaelbumann.com/tags/ruby/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Military</title>
-      <link>https://michaelbumann.com/tags/military/</link>
-      <pubDate>Tue, 24 Oct 2017 11:53:32 +0000</pubDate>
+      <title>satellite</title>
+      <link>https://michaelbumann.com/tags/satellite/</link>
+      <pubDate>Sat, 09 Feb 2019 21:50:54 +0000</pubDate>
       
-      <guid>https://michaelbumann.com/tags/military/</guid>
+      <guid>https://michaelbumann.com/tags/satellite/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Mobilemoney</title>
-      <link>https://michaelbumann.com/tags/mobilemoney/</link>
-      <pubDate>Fri, 23 Oct 2015 16:05:40 +0000</pubDate>
+      <title>API</title>
+      <link>https://michaelbumann.com/tags/api/</link>
+      <pubDate>Thu, 22 Nov 2018 21:45:10 +0000</pubDate>
       
-      <guid>https://michaelbumann.com/tags/mobilemoney/</guid>
+      <guid>https://michaelbumann.com/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>payments</title>
+      <link>https://michaelbumann.com/tags/payments/</link>
+      <pubDate>Thu, 22 Nov 2018 21:45:10 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/payments/</guid>
       <description></description>
     </item>
     
@@ -246,25 +111,7 @@
     </item>
     
     <item>
-      <title>Mpesa</title>
-      <link>https://michaelbumann.com/tags/mpesa/</link>
-      <pubDate>Fri, 23 Oct 2015 16:05:40 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/mpesa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Namecoin</title>
-      <link>https://michaelbumann.com/tags/namecoin/</link>
-      <pubDate>Wed, 26 Aug 2015 15:06:29 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/namecoin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Openalias</title>
+      <title>OpenAlias</title>
       <link>https://michaelbumann.com/tags/openalias/</link>
       <pubDate>Sat, 03 Nov 2018 18:53:28 +0000</pubDate>
       
@@ -273,79 +120,7 @@
     </item>
     
     <item>
-      <title>Openassets</title>
-      <link>https://michaelbumann.com/tags/openassets/</link>
-      <pubDate>Mon, 21 Dec 2015 17:36:05 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/openassets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Opensource</title>
-      <link>https://michaelbumann.com/tags/opensource/</link>
-      <pubDate>Fri, 09 Feb 2018 14:27:15 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/opensource/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Payments</title>
-      <link>https://michaelbumann.com/tags/payments/</link>
-      <pubDate>Thu, 22 Nov 2018 21:45:10 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/payments/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quantified Self</title>
-      <link>https://michaelbumann.com/tags/quantified-self/</link>
-      <pubDate>Wed, 24 Feb 2016 18:47:42 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/quantified-self/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Railslove</title>
-      <link>https://michaelbumann.com/tags/railslove/</link>
-      <pubDate>Wed, 23 Nov 2011 23:08:00 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/railslove/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Remotestorage</title>
-      <link>https://michaelbumann.com/tags/remotestorage/</link>
-      <pubDate>Wed, 26 Aug 2015 15:06:29 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/remotestorage/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rspec</title>
-      <link>https://michaelbumann.com/tags/rspec/</link>
-      <pubDate>Fri, 12 Nov 2010 01:29:03 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/rspec/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ruby</title>
-      <link>https://michaelbumann.com/tags/ruby/</link>
-      <pubDate>Sat, 09 Feb 2019 21:50:54 +0000</pubDate>
-      
-      <guid>https://michaelbumann.com/tags/ruby/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rust</title>
+      <title>rust</title>
       <link>https://michaelbumann.com/tags/rust/</link>
       <pubDate>Sat, 03 Nov 2018 18:53:28 +0000</pubDate>
       
@@ -354,29 +129,272 @@
     </item>
     
     <item>
-      <title>Satellite</title>
-      <link>https://michaelbumann.com/tags/satellite/</link>
-      <pubDate>Sat, 09 Feb 2019 21:50:54 +0000</pubDate>
+      <title>lnd</title>
+      <link>https://michaelbumann.com/tags/lnd/</link>
+      <pubDate>Sat, 20 Oct 2018 22:04:03 +0000</pubDate>
       
-      <guid>https://michaelbumann.com/tags/satellite/</guid>
+      <guid>https://michaelbumann.com/tags/lnd/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Travel</title>
-      <link>https://michaelbumann.com/tags/travel/</link>
+      <title>ethereum</title>
+      <link>https://michaelbumann.com/tags/ethereum/</link>
+      <pubDate>Tue, 27 Feb 2018 14:30:47 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/ethereum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>graphql</title>
+      <link>https://michaelbumann.com/tags/graphql/</link>
+      <pubDate>Tue, 27 Feb 2018 14:30:47 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/graphql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ipfs</title>
+      <link>https://michaelbumann.com/tags/ipfs/</link>
+      <pubDate>Tue, 27 Feb 2018 14:30:47 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/ipfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>donation</title>
+      <link>https://michaelbumann.com/tags/donation/</link>
+      <pubDate>Fri, 09 Feb 2018 14:27:15 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/donation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opensource</title>
+      <link>https://michaelbumann.com/tags/opensource/</link>
+      <pubDate>Fri, 09 Feb 2018 14:27:15 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>advertisement</title>
+      <link>https://michaelbumann.com/tags/advertisement/</link>
+      <pubDate>Tue, 24 Oct 2017 11:53:32 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/advertisement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>military</title>
+      <link>https://michaelbumann.com/tags/military/</link>
+      <pubDate>Tue, 24 Oct 2017 11:53:32 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/military/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iamsatoshi</title>
+      <link>https://michaelbumann.com/tags/iamsatoshi/</link>
+      <pubDate>Tue, 03 May 2016 15:25:58 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/iamsatoshi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT</title>
+      <link>https://michaelbumann.com/tags/iot/</link>
+      <pubDate>Sun, 20 Mar 2016 07:16:08 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bip70</title>
+      <link>https://michaelbumann.com/tags/bip70/</link>
+      <pubDate>Mon, 07 Mar 2016 17:46:05 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/bip70/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database</title>
+      <link>https://michaelbumann.com/tags/database/</link>
       <pubDate>Wed, 24 Feb 2016 18:47:42 +0000</pubDate>
       
-      <guid>https://michaelbumann.com/tags/travel/</guid>
+      <guid>https://michaelbumann.com/tags/database/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Yo</title>
+      <title>git</title>
+      <link>https://michaelbumann.com/tags/git/</link>
+      <pubDate>Wed, 24 Feb 2016 18:47:42 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quantified self</title>
+      <link>https://michaelbumann.com/tags/quantified-self/</link>
+      <pubDate>Wed, 24 Feb 2016 18:47:42 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/quantified-self/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blockchain</title>
+      <link>https://michaelbumann.com/tags/blockchain/</link>
+      <pubDate>Mon, 21 Dec 2015 17:36:05 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>colored coins</title>
+      <link>https://michaelbumann.com/tags/colored-coins/</link>
+      <pubDate>Mon, 21 Dec 2015 17:36:05 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/colored-coins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openassets</title>
+      <link>https://michaelbumann.com/tags/openassets/</link>
+      <pubDate>Mon, 21 Dec 2015 17:36:05 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/openassets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mobilemoney</title>
+      <link>https://michaelbumann.com/tags/mobilemoney/</link>
+      <pubDate>Fri, 23 Oct 2015 16:05:40 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/mobilemoney/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mpesa</title>
+      <link>https://michaelbumann.com/tags/mpesa/</link>
+      <pubDate>Fri, 23 Oct 2015 16:05:40 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/mpesa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blockchainid</title>
+      <link>https://michaelbumann.com/tags/blockchainid/</link>
+      <pubDate>Wed, 26 Aug 2015 15:06:29 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/blockchainid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>namecoin</title>
+      <link>https://michaelbumann.com/tags/namecoin/</link>
+      <pubDate>Wed, 26 Aug 2015 15:06:29 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/namecoin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remotestorage</title>
+      <link>https://michaelbumann.com/tags/remotestorage/</link>
+      <pubDate>Wed, 26 Aug 2015 15:06:29 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/remotestorage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>https://michaelbumann.com/tags/development/</link>
+      <pubDate>Wed, 10 Dec 2014 17:34:32 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>internet of things</title>
+      <link>https://michaelbumann.com/tags/internet-of-things/</link>
+      <pubDate>Wed, 10 Dec 2014 17:34:32 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/internet-of-things/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yo</title>
       <link>https://michaelbumann.com/tags/yo/</link>
       <pubDate>Wed, 10 Dec 2014 17:34:32 +0000</pubDate>
       
       <guid>https://michaelbumann.com/tags/yo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>em2012</title>
+      <link>https://michaelbumann.com/tags/em2012/</link>
+      <pubDate>Fri, 23 Dec 2011 00:07:00 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/em2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eu2012</title>
+      <link>https://michaelbumann.com/tags/eu2012/</link>
+      <pubDate>Fri, 23 Dec 2011 00:07:00 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/eu2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>euro2012</title>
+      <link>https://michaelbumann.com/tags/euro2012/</link>
+      <pubDate>Fri, 23 Dec 2011 00:07:00 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/euro2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>railslove</title>
+      <link>https://michaelbumann.com/tags/railslove/</link>
+      <pubDate>Wed, 23 Nov 2011 23:08:00 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/railslove/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rspec</title>
+      <link>https://michaelbumann.com/tags/rspec/</link>
+      <pubDate>Fri, 12 Nov 2010 01:29:03 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/tags/rspec/</guid>
       <description></description>
     </item>
     

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lnd on Michael Bumann</title>
+    <title>lnd on Michael Bumann</title>
     <link>https://michaelbumann.com/tags/lnd/</link>
-    <description>Recent content in Lnd on Michael Bumann</description>
+    <description>Recent content in lnd on Michael Bumann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Oct 2018 22:04:03 +0000</lastBuildDate>

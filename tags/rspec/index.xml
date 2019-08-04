@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rspec on Michael Bumann</title>
+    <title>rspec on Michael Bumann</title>
     <link>https://michaelbumann.com/tags/rspec/</link>
-    <description>Recent content in Rspec on Michael Bumann</description>
+    <description>Recent content in rspec on Michael Bumann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Nov 2010 01:29:03 +0000</lastBuildDate>

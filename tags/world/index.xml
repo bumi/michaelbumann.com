@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>world on Michael Bumann</title>
+    <link>https://michaelbumann.com/tags/world/</link>
+    <description>Recent content in world on Michael Bumann</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Aug 2019 18:50:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://michaelbumann.com/tags/world/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AfricaHackTrip - The Movie</title>
+      <link>https://michaelbumann.com/posts/2019-08-04-africahacktrip-the-movie/</link>
+      <pubDate>Sat, 03 Aug 2019 18:50:54 +0000</pubDate>
+      
+      <guid>https://michaelbumann.com/posts/2019-08-04-africahacktrip-the-movie/</guid>
+      <description>A few years ago I saw Gregor posting on Twitter about a trip to explore the East African tech scene. This was about the time when I started to hear more about the emerging African tech hubs. Which was surprising to me because until then I was actually pretty ignorant and had no idea what was going on in that part of the world. My view of Africa was mostly shaped by the general narrative we see in the western news, learn in school and the billboard advertisements of some NGOs.</description>
+    </item>
+    
+  </channel>
+</rss>

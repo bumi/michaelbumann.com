@@ -8,7 +8,7 @@
 <meta http-equiv="Cache-Control" content="public" />
 <!-- Enable responsiveness on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.55.6" />
 
     
     
@@ -26,7 +26,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://michaelbumann.com/" />
 
-<meta property="og:updated_time" content="2016-03-24T20:11:34&#43;00:00"/>
+<meta property="og:updated_time" content="2019-08-03T18:50:54&#43;00:00"/>
 
 
     
@@ -228,6 +228,29 @@
   <div class="post-list">
     
     
+      
+        
+      
+      <div class="post-list__item">
+        <h2 class="item__title--big">
+          <a href="/posts/2016-04-25-online-payments-transfer-value-instead-of-information/" >Online payments: transfer value instead of information</a>
+        </h2>
+        
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Apr 25, 2016
+    
+    
+    
+</div>
+
+
+        <p>First online payments happened before SSL was officially released and browsers could not make secure connections. A custom client had to be used to transfer the card details securely from the customer to the merchant. That was around 1994. Today 90% of online transactions in the US are card payments. The international numbers are probably lower with significant higher numbers for local, alternative payment methods. But the concept is all the same: <br></p><p>The customer<b> </b>transfers <b>some information</b> (card details, account numbers, etc.) to the merchant which uses a service provider (PSP) to <i><b>pull</b></i> money from the customer’s account through all the middle-men (acquirer, card network, banks,..) using that information. (or, in case both merchant and customer use the same wallet provider a closed loop transaction is done (for example PayPal). </p><p>To allow customers to pay with their payment option of choice merchants have to ideally integrate all options. Obviously a huge effort for the merchant. And many merchants only accept card payments leaving unserved all the people without cards. Crappy payment usability is probably still one of the main conversion killers.</p><h2>But: value should be transferred instead of information</h2><p>Since Bitcoin we have a rather widely adopted option of transferring <b>digital value</b> directly between two parties. Which means we actually no longer have to transfer payment <b>information</b> in order to pay. </p><p>One idea that I think has too little attention is the need for better integrations of wallets into browsers. <br>This would allow us to <b>move the payment method selection to the client</b>. Imagine your bank or card provider gives you a tool to pay online. Basically a tool that understands the bitcoin payment protocol and does the transaction for you. Any company could provide their customers such a solution (possibly even with additional services like dispute mediation, insurance, etc.).<br>No longer the merchant decides which payment instruments their customers must have access to but the customer chooses the favorite one - as long as it can transfer value in the defined standard to the merchant. </p><p>For the merchant it will be way easier to integrate payments, no need to integrate a broad range of payment options. It comes with usability improvements for the customer. </p><p>This is not a new idea, and has probably been around since the ecash times. But with Bitcoin for the first time a increasingly, widely adopted standard for digital value exchange exists. It makes it possible to transfer “money” directly instead of some information how to access the money.</p><figure data-orig-width="1100" data-orig-height="528" class="tmblr-full"><img src="/img/2016-04-25-online-payments-transfer-value-instead-of-information/15d35439d776a8d21881a3116c1fc6f12a5ec2d0a74782ef8d6f0513c636cb48.png" alt="image" data-orig-width="1100" data-orig-height="528"></figure><h2>W3C payment standardization process</h2><p>Since years there has been activities around the <a href="http://w3c.org/">W3C</a> to standardize the web payment process which would make it easier for merchants to integrate payments as well as improving the usability for customers. The whole activities has imho been/is a bit confusing with many working groups, interest groups, task forces, competing standards, etc. but probably I just know to little about the W3C works ;)</p><p>I think it is super important that the payment flows become standardized, even though it seems the focus ist still on transferring <b>payment information.<br></b>There has been a lot of activity lately at the <a href="https://github.com/w3c/webpayments/wiki">web payments working group</a> which is worth following. Also very - maybe even more interesting - is the <a href="http://interledger.org/">Interledger payments community group.</a></p><p><b>tl;dr: </b>let’s move the payment method selection from the merchant’s site to the client and transfer value directly and not stupid payment information (like card details).</p>
+
+      </div>
+      
+     
       
         
       
@@ -491,29 +514,6 @@ What I have totally missed and not thought about are all the internet new comers
 
 
         <p><p>There has been a lot of excitement in the last many years about how mobile money systems can bring financial services to previously underserved people. Mobile money systems make it possible to deliver various services at affordable costs to remote areas and groups of disadvantaged and low-income people that brick and mortar banks can not serve. <br>Which is pretty cool: set up a few cell phone towers, distribute some SIM cards and cheap phones, add some software and people can transact.<br>And on top of that it seems to be much more convenient and reliable than traditional banking services that also often lack decent mobile/online services.</p><p><a href="https://en.wikipedia.org/wiki/M-Pesa">M-Pesa</a> of Safaricom in Kenya is commonly mentioned as an example of the great success of such systems. It gives people access to save money and access to loans and makes a lot of other services possible like for example the solar company <a href="http://www.m-kopa.com/">m-kopa</a>.</p><p>When I first heard about these solutions I was super excited. For me, being used to the european banking system, I was surprised how easy and well it works also for my use-cases. <br>You can use it everywhere - you pay everyone and for everything, from your taxi driver to your electricity meter. You hardly need to visit or interact with your bank and a big ecosystem around m-pesa has been growing.<br>Of course this is Kenya and Mobile Money systems are a little less adopted in other countries but pretty much all the MNOs these days operate a mobile money system.&nbsp;(btw. Somaliland has the highest percentage of GDP transacted through mobile phones.)</p><p><b>But NO those Mobile Money Systems are not exciting! </b></p><p>Sadly, if you think a little more about it, these systems are worse than all the things we currently know. Every carrier is its own island. Not interoperable at all. And access is controlled by one single <em>private</em> corporation. <br>It is great in the beginning to bring financial services to underserved people and optimizing distribution of help. But it is all one simple machine to create a monopoly and thus to give all the power to one single authority. And companies use their power to protect their monopoly.</p><p>We are talking about net neutrality and complaining about projects like internet.org that give selective internet access to people. But having access to financial services must be also <i>neutral</i>. Think of the<b> network to transfer value</b>. That network must be accessible for every person and every company. With minimal costs involved to participate.<br>Currently these systems are quite the opposite.</p><p><b>We need to build an Open Source Mobile Money system!</b></p><p>The network to transfer value must be based on open standards that make it possible to develop financial services. It must be inclusive. It must not be owned by anybody. <br>Everybody must be able to participate. &nbsp;Everybody must be able to use it and offer services.&nbsp;<br></p><p>Some of you now might say, <a href="http://bitcoin.org/">Bitcoin</a> (some might add <a href="http://www.ethereum.org/">Ethereum</a>&nbsp;or also <a href="http://stellar.org/">Stellar</a>)!<b>&nbsp;</b>And yes, I guess that is one of the reasons why many of us are excited about Bitcoin and I am happy about the democratization this technology brings.&nbsp;</p><p>Bitcoin admittedly has still some flaws for directly providing the above described services. But it brought us a distributed ledger, a standardized system to record scriptable transactions in a decentralized way.&nbsp;<br></p><p>I suggest we are building an open mobile money system - a system to transfer value - on the bitcoin blockchain. Here are a few ideas:</p><ul><li>The Open Assets protocol could be used to issue colored coins on the blockchain. Organizations, communities, or even countries could issue their own coins. But they are transacted on the open blockchain and everyone can participate. That is a digital representation of an&nbsp;“asset” backed by the issuing organization.&nbsp;</li><li>Mobile carriers could operate mobile wallets (for example USSD, SMS or SIM card based). They could use their own colored coins and/or support multiple coins. &nbsp;</li><li>Merchant payments are easy by default as everybody can integrate with the blockchain.</li><li>There are a lot of monetization possibilities and incentives for organizations to integrate with the network.</li><li>Want to provide additional services like, let’s say an accounting software, simply integrate with the blockchain.&nbsp;</li><li>Cross-organization/Cross-border/international integration works by default.&nbsp;</li><li>System is fully Open Source and implements public standards that everybody can use and integrate.</li></ul><p>Point is we need to an open and censorship resistant system that is not in control by a single organization and depending on the approval of that organization to integrate with the system.<br>Colored Coins could be a compromise to transfer assets backed by an issuer in an open decentralized network.&nbsp;</p><p><br></p><p><b>Further reading:&nbsp;</b></p><ul><li><a href="http://openassets.org">OpenAsset Protocol</a><br></li><li><a href="http://stellar.org/">Stellar.org</a></li><li><a href="https://www.coinprism.com/">CoinPrism</a></li><li><a href="http://openchain.org/">OpenChain</a></li><li><a href="http://www.multichain.com/">MultiChain</a></li><li><a href="http://counterparty.io/">Counterparty</a></li></ul></p>
-
-      </div>
-      
-     
-      
-        
-      
-      <div class="post-list__item">
-        <h2 class="item__title--big">
-          <a href="/posts/2015-12-08-a-jekyll-theme-optimized-for-meetups/" >A jekyll theme optimized for meetups</a>
-        </h2>
-        
-<div class="post__meta">
-    
-    
-      <i class="fas fa-calendar-alt"></i> Dec 08, 2015
-    
-    
-    
-</div>
-
-
-        <p><figure data-orig-width="1188" data-orig-height="316" class="tmblr-full"><img src="/img/2015-12-08-a-jekyll-theme-optimized-for-meetups/4bcb89ce0b06b8ba8e5f7ca68523f95c328a43f9309469f4ac084edf9f6c8015.jpg" alt="image" data-orig-width="1188" data-orig-height="316"></figure><p>We are having an <a href="https://bumi.github.io/online-payments-meetup-kigali">online payment meetup</a> next week in Kigali and for the announcement I needed a simple website. I did not want to use something like meetup.com just because it is way too much and too complicated.&nbsp;<br>To make it easy to host I wanted to have a static website but with the functionality to RSVP and list the participants.&nbsp;</p><p>I’ve ended up forking @<a href="https://twitter.com/brianmaier">brianmaierjr</a>’s great&nbsp;<a href="http://jekyllrb.com">jekyll</a> theme <a href="https://github.com/brianmaierjr/long-haul">long-haul</a>&nbsp;(as seen on the image above) and added some functionality that was needed for an event page: mainly RSVPs, embeded loaction map, and information about when and where.</p><p>Because jekyll generates a static website the theme uses&nbsp;<a href="http://stamplay.com">stamplay.com</a> as a backend as a service provider to store the event participants.&nbsp;</p><p>Have a look at the source and readme over here:&nbsp;<a href="https://github.com/bumi/long-haul">https://github.com/bumi/long-haul</a></p><p>To create your own site, simply for the <a href="https://github.com/bumi/long-haul">repository</a>, customize to your needs and deploy it to a static site hoster like <a href="http://pages.github.com">github pages</a>.</p><p>And, hey, if you are in Kigali, stop by at our <a href="https://bumi.github.io/online-payments-meetup-kigali/">meetup</a> next week.</p></p>
 
       </div>
       
