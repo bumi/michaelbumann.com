@@ -8,7 +8,8 @@ title: "AfricaHackTrip - The Movie"
 A few years ago I saw [Gregor](https://twitter.com/gr2m/) posting on Twitter about a trip to explore the East African tech scene. 
 This was about the time when I started to hear more about the emerging African tech hubs. 
 Which was surprising to me because until then I was actually pretty ignorant and had no idea what was going on in that part of the world.
-My view of Africa was mostly shaped by the general narrative we see in the western news, learn in school and the billboard advertisements of some NGOs. Prejudices imagining poverty (defined by a low GDP), malaria, safari tours, and everything but booming, creative tech and innovation hubs. Never had I imagined such a good breeding ground for technology and innovation. 
+My view of Africa was mostly shaped by the general narrative we see in the western news, learn in school and the billboard advertisements of some NGOs. 
+Prejudices imagining poverty (defined by a low GDP), malaria, safari tours, and everything but booming, creative tech and innovation hubs. :)
 
 So when I heard about Gregor's idea of an AfricaHackTrip I got super excited and wanted to join and learn more about what is going on there. And I am very greateful that I got a chance to become part of the AfricaHackTrip team. 
 
