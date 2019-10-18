@@ -14,7 +14,7 @@ I am also trying to understand our beautiful world a little better and [this is 
 
 You can read more details about my past and current work on my [profile](http://profile.michaelbumann.com/)
 and find me on [GitHub](http://github.com/bumi/),
-[Fediverse/Mastodon](http://kosmos.social/@bumi%22), [Twitter](http://twitter.com/bumi), [Flickr](http://flickr.com/bumi), [Facebook](http://facebook.com/michaelbumann), [LinkedIn](https://www.linkedin.com/in/michaelbumann/), and elsewhere on the interweb.
+[Fediverse/Mastodon](https://kosmos.social/@bumi), [Twitter](http://twitter.com/bumi), [Flickr](http://flickr.com/bumi), [Facebook](http://facebook.com/michaelbumann), [LinkedIn](https://www.linkedin.com/in/michaelbumann/), and elsewhere on the interweb.
 
 #### Feel free to contact me:
 
