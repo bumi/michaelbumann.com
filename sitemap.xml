@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://michaelbumann.com/tags/africa/</loc>
+    <lastmod>2019-08-03T18:50:54+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://michaelbumann.com/posts/2019-08-04-africahacktrip-the-movie/</loc>
     <lastmod>2019-08-03T18:50:54+00:00</lastmod>
   </url>
@@ -10,37 +15,26 @@
   <url>
     <loc>https://michaelbumann.com/</loc>
     <lastmod>2019-08-03T18:50:54+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/posts/</loc>
     <lastmod>2019-08-03T18:50:54+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/</loc>
     <lastmod>2019-08-03T18:50:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelbumann.com/tags/africa/</loc>
-    <lastmod>2019-08-03T18:50:54+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/travel/</loc>
     <lastmod>2019-08-03T18:50:54+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/world/</loc>
     <lastmod>2019-08-03T18:50:54+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -49,9 +43,38 @@
   </url>
   
   <url>
+    <loc>https://michaelbumann.com/tags/bitcoin/</loc>
+    <lastmod>2019-02-09T21:50:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://michaelbumann.com/categories/bitcoin/</loc>
+    <lastmod>2019-02-09T21:50:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://michaelbumann.com/tags/blockstream/</loc>
+    <lastmod>2019-02-09T21:50:54+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://michaelbumann.com/categories/</loc>
     <lastmod>2019-02-09T21:50:54+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelbumann.com/tags/lightning/</loc>
+    <lastmod>2019-02-09T21:50:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://michaelbumann.com/tags/ruby/</loc>
+    <lastmod>2019-02-09T21:50:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://michaelbumann.com/tags/satellite/</loc>
+    <lastmod>2019-02-09T21:50:54+00:00</lastmod>
   </url>
   
   <url>
@@ -60,45 +83,8 @@
   </url>
   
   <url>
-    <loc>https://michaelbumann.com/categories/bitcoin/</loc>
-    <lastmod>2019-02-09T21:50:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelbumann.com/tags/bitcoin/</loc>
-    <lastmod>2019-02-09T21:50:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelbumann.com/tags/blockstream/</loc>
-    <lastmod>2019-02-09T21:50:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelbumann.com/tags/lightning/</loc>
-    <lastmod>2019-02-09T21:50:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelbumann.com/tags/ruby/</loc>
-    <lastmod>2019-02-09T21:50:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelbumann.com/tags/satellite/</loc>
-    <lastmod>2019-02-09T21:50:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://michaelbumann.com/tags/api/</loc>
     <lastmod>2018-11-22T21:45:10+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -109,19 +95,16 @@
   <url>
     <loc>https://michaelbumann.com/tags/payments/</loc>
     <lastmod>2018-11-22T21:45:10+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/monero/</loc>
     <lastmod>2018-11-03T18:53:28+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/openalias/</loc>
     <lastmod>2018-11-03T18:53:28+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -132,7 +115,6 @@
   <url>
     <loc>https://michaelbumann.com/tags/rust/</loc>
     <lastmod>2018-11-03T18:53:28+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -143,30 +125,26 @@
   <url>
     <loc>https://michaelbumann.com/tags/lnd/</loc>
     <lastmod>2018-10-20T22:04:03+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelbumann.com/posts/2018-02-27-wrapping-ethereum-smart-contracts-and-ipfs-objects-in-a-graphql-api/</loc>
-    <lastmod>2018-02-27T14:30:47+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/ethereum/</loc>
     <lastmod>2018-02-27T14:30:47+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/graphql/</loc>
     <lastmod>2018-02-27T14:30:47+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/ipfs/</loc>
     <lastmod>2018-02-27T14:30:47+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelbumann.com/posts/2018-02-27-wrapping-ethereum-smart-contracts-and-ipfs-objects-in-a-graphql-api/</loc>
+    <lastmod>2018-02-27T14:30:47+00:00</lastmod>
   </url>
   
   <url>
@@ -177,13 +155,11 @@
   <url>
     <loc>https://michaelbumann.com/tags/donation/</loc>
     <lastmod>2018-02-09T14:27:15+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/opensource/</loc>
     <lastmod>2018-02-09T14:27:15+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -192,20 +168,18 @@
   </url>
   
   <url>
+    <loc>https://michaelbumann.com/tags/advertisement/</loc>
+    <lastmod>2017-10-24T11:53:32+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://michaelbumann.com/posts/2017-10-24-advertisement-for-the-army/</loc>
     <lastmod>2017-10-24T11:53:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://michaelbumann.com/tags/advertisement/</loc>
-    <lastmod>2017-10-24T11:53:32+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://michaelbumann.com/tags/military/</loc>
     <lastmod>2017-10-24T11:53:32+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -216,7 +190,6 @@
   <url>
     <loc>https://michaelbumann.com/tags/iamsatoshi/</loc>
     <lastmod>2016-05-03T15:25:58+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -237,7 +210,6 @@
   <url>
     <loc>https://michaelbumann.com/tags/iot/</loc>
     <lastmod>2016-03-20T07:16:08+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -246,37 +218,33 @@
   </url>
   
   <url>
+    <loc>https://michaelbumann.com/tags/bip70/</loc>
+    <lastmod>2016-03-07T17:46:05+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://michaelbumann.com/posts/2016-03-07-example-clientserver-implementing-of-the-bitcoin-payment-protocol-bip70/</loc>
     <lastmod>2016-03-07T17:46:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://michaelbumann.com/tags/bip70/</loc>
-    <lastmod>2016-03-07T17:46:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelbumann.com/posts/2016-02-24-travel-location-tracker-using-gitgithub-as-a-time-series-database/</loc>
-    <lastmod>2016-02-24T18:47:42+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://michaelbumann.com/tags/database/</loc>
     <lastmod>2016-02-24T18:47:42+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/git/</loc>
     <lastmod>2016-02-24T18:47:42+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/quantified-self/</loc>
     <lastmod>2016-02-24T18:47:42+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelbumann.com/posts/2016-02-24-travel-location-tracker-using-gitgithub-as-a-time-series-database/</loc>
+    <lastmod>2016-02-24T18:47:42+00:00</lastmod>
   </url>
   
   <url>
@@ -295,26 +263,23 @@
   </url>
   
   <url>
+    <loc>https://michaelbumann.com/tags/blockchain/</loc>
+    <lastmod>2015-12-21T17:36:05+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://michaelbumann.com/posts/2015-12-21-building-an-open-source-mobile-money-system-for-financial-inclusion/</loc>
     <lastmod>2015-12-21T17:36:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://michaelbumann.com/tags/blockchain/</loc>
-    <lastmod>2015-12-21T17:36:05+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://michaelbumann.com/tags/colored-coins/</loc>
     <lastmod>2015-12-21T17:36:05+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/openassets/</loc>
     <lastmod>2015-12-21T17:36:05+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -338,26 +303,23 @@
   </url>
   
   <url>
-    <loc>https://michaelbumann.com/posts/2015-10-23-sending-bitcoin-to-a-kenyan-mobile-money-account-using-the-telegram-messenger/</loc>
-    <lastmod>2015-10-23T16:05:40+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://michaelbumann.com/tags/mobilemoney/</loc>
     <lastmod>2015-10-23T16:05:40+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/mpesa/</loc>
     <lastmod>2015-10-23T16:05:40+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelbumann.com/posts/2015-10-23-sending-bitcoin-to-a-kenyan-mobile-money-account-using-the-telegram-messenger/</loc>
+    <lastmod>2015-10-23T16:05:40+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/blockchainid/</loc>
     <lastmod>2015-08-26T15:06:29+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -368,13 +330,11 @@
   <url>
     <loc>https://michaelbumann.com/tags/namecoin/</loc>
     <lastmod>2015-08-26T15:06:29+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/remotestorage/</loc>
     <lastmod>2015-08-26T15:06:29+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -383,26 +343,23 @@
   </url>
   
   <url>
-    <loc>https://michaelbumann.com/posts/2014-12-10-yo-the-most-exciting-application-of-2014/</loc>
-    <lastmod>2014-12-10T17:34:32+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://michaelbumann.com/tags/development/</loc>
     <lastmod>2014-12-10T17:34:32+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/internet-of-things/</loc>
     <lastmod>2014-12-10T17:34:32+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/yo/</loc>
     <lastmod>2014-12-10T17:34:32+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelbumann.com/posts/2014-12-10-yo-the-most-exciting-application-of-2014/</loc>
+    <lastmod>2014-12-10T17:34:32+00:00</lastmod>
   </url>
   
   <url>
@@ -461,26 +418,23 @@
   </url>
   
   <url>
-    <loc>https://michaelbumann.com/posts/2011-12-23-new-railslove-product-for-the-euro-2012/</loc>
-    <lastmod>2011-12-23T00:07:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://michaelbumann.com/tags/em2012/</loc>
     <lastmod>2011-12-23T00:07:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/eu2012/</loc>
     <lastmod>2011-12-23T00:07:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://michaelbumann.com/tags/euro2012/</loc>
     <lastmod>2011-12-23T00:07:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://michaelbumann.com/posts/2011-12-23-new-railslove-product-for-the-euro-2012/</loc>
+    <lastmod>2011-12-23T00:07:00+00:00</lastmod>
   </url>
   
   <url>
@@ -509,14 +463,13 @@
   </url>
   
   <url>
-    <loc>https://michaelbumann.com/posts/2011-11-23-whats-in-your-bag-pictures-of-the-railslove-team/</loc>
+    <loc>https://michaelbumann.com/tags/railslove/</loc>
     <lastmod>2011-11-23T23:08:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://michaelbumann.com/tags/railslove/</loc>
+    <loc>https://michaelbumann.com/posts/2011-11-23-whats-in-your-bag-pictures-of-the-railslove-team/</loc>
     <lastmod>2011-11-23T23:08:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -527,7 +480,6 @@
   <url>
     <loc>https://michaelbumann.com/tags/rspec/</loc>
     <lastmod>2010-11-12T01:29:03+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
