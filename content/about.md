@@ -22,4 +22,4 @@ mail: [hello@michaelbumann.com](mailto:hello@michaelbumann.com)
 phone: +49176 22747893 (signal/whatsapp)  
 in person: [where.is.michaelbumann.com](http://where.is.michaelbumann.com)
 
-PGP fingerprint: 18F1 CDD3 E5DE E065 20B4 C203 7B03 B936 9716 70EC"
+PGP fingerprint: 5F2B D2C0 5565 3A31 146A  15F9 4AF1 27D1 154A FE5F
